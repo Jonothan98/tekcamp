@@ -1,2 +1,2 @@
-<!DOCTYPE><html lang=”en=us”><head><title>Simple HTML</title></head><body><h1>Updated Heading Element</h1></body></html>
+<!DOCTYPE><html lang=”en=us”><head><title>Simple HTML</title></head><body><h2>Updated Heading Element</h2></body></html>
 
