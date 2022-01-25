@@ -1,0 +1,48 @@
+commit 678afb0f26083af92382561674d47b2da3434b68
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:25:57 2022 -0600
+
+    commit h2-tag after adding
+
+commit e6cd991155b5c6f26e5d84dc66cf36968c269b49
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:24:51 2022 -0600
+
+    commit h2-tag
+
+commit 41870d5b6e186102a154b97a998cc2b6469be9cd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:09:44 2022 -0600
+
+    index.html change
+
+commit f22455b9e0ad18dff66a5d1a17ced5138605361b
+Merge: 9a0b65a f0ca70c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:04:08 2022 -0600
+
+    merge conflict
+
+commit f0ca70c04a12a8f1a43f6012898699776d65140a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:51:17 2022 -0600
+
+    commit updated-title
+
+commit 9a0b65a99c6a7f5ad2a78d2c81cab169304da90d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:49:10 2022 -0600
+
+    commit new-body
+
+commit 3c199ca90b8c2b6d40c48fe3477f6798cdcc8adc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:07:50 2022 -0600
+
+    commit new-html
+
+commit 886992c15c7a487e180ac6354f7902491c56787a
+Author: Jonothan98 <55722400+Jonothan98@users.noreply.github.com>
+Date:   Mon Jan 24 12:39:16 2022 -0600
+
+    Initial commit
