@@ -62,12 +62,14 @@ section{
     
 }
 
-.sedanBox #btn-sedan{
-    align-self: center;
+span{
+    display: flex;
+    height: 20vh;
+    align-self: flex-end;
 }
 
 /*-----Sets button Styles-----*/
-button{
+#btn-sedan{
     background-color: #ffffffbf;
     border-color: #ffffffbf;
     border: 1px;
@@ -76,6 +78,33 @@ button{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     mix-blend-mode: lighten;
+    height: 4vh;
+
+}
+
+#btn-suv{
+    background-color: #ffffffbf;
+    border-color: #ffffffbf;
+    border: 1px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    mix-blend-mode: lighten;
+    height: 4vh;
+
+}
+
+#btn-luxury{
+    background-color: #ffffffbf;
+    border-color: #ffffffbf;
+    border: 1px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    mix-blend-mode: lighten;
+    height: 4vh;
 
 }
 
