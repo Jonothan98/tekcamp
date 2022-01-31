@@ -1,0 +1,128 @@
+commit 7c954744f8e8fda34d1c5266cf11728ed50a75f8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 13:19:05 2022 -0600
+
+    Clean up html and CSS code, and added comments to CSS
+
+commit 6b9fd7a7ad6e912a70316a933fab502373c06f5c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 12:47:18 2022 -0600
+
+    Edited buttons in html to making styling easier in CSS
+
+commit ace547bc94c6e8eee509473df02d028bb0276899
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Jan 28 16:43:23 2022 -0600
+
+    added mediaQ and made small changes to index and style files
+
+commit db848ec7483e3795d89f1d42d14f0dbc7a08a4ff
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Jan 27 23:06:16 2022 -0600
+
+    commit html structure done  and currently editing CSS
+
+commit ebb48afaf3c8532e64cf25c2fe975c998eecd602
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:21:28 2022 -0600
+
+    corrected index changes
+
+commit 84c1869bbc6f677c0840ed952932cf32ad10ea23
+Merge: 58646df c983d94
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:17:37 2022 -0600
+
+    corrected files git.log and index
+
+commit 58646df19395335c791afc395174c09369cb8176
+Merge: 3b7319e 47f6b83
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:15:17 2022 -0600
+
+    Merge branch 'undo-reset' into develop
+
+commit 3b7319e79f40dc23fffefc4c9ad9375461560a19
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:14:56 2022 -0600
+
+    corrected index file name
+
+commit 47f6b8320b95780cf392d89295a0f8e8d19df3b2
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:13:29 2022 -0600
+
+    deleted extra git.log
+
+commit e9e700ece037baf9c41aaf008e72cbf663175d78
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:07:41 2022 -0600
+
+    commit undo-reset with git log
+
+commit c983d94e7ab9c2bbd9a9bfb7d8f92a606e3bdf6d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 13:51:35 2022 -0600
+
+    edited index.html file name
+
+commit 3554848cf1e1a320557342991454b0dc1a97f5fc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 13:47:49 2022 -0600
+
+    added git log to git
+
+commit f5a336897a1fa04cce97fd1fc024c726efb13498
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:38:11 2022 -0600
+
+    commit changes to undo-reset
+
+commit 678afb0f26083af92382561674d47b2da3434b68
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:25:57 2022 -0600
+
+    commit h2-tag after adding
+
+commit e6cd991155b5c6f26e5d84dc66cf36968c269b49
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:24:51 2022 -0600
+
+    commit h2-tag
+
+commit 41870d5b6e186102a154b97a998cc2b6469be9cd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:09:44 2022 -0600
+
+    index.html change
+
+commit f22455b9e0ad18dff66a5d1a17ced5138605361b
+Merge: 9a0b65a f0ca70c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:04:08 2022 -0600
+
+    merge conflict
+
+commit f0ca70c04a12a8f1a43f6012898699776d65140a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:51:17 2022 -0600
+
+    commit updated-title
+
+commit 9a0b65a99c6a7f5ad2a78d2c81cab169304da90d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:49:10 2022 -0600
+
+    commit new-body
+
+commit 3c199ca90b8c2b6d40c48fe3477f6798cdcc8adc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:07:50 2022 -0600
+
+    commit new-html
+
+commit 886992c15c7a487e180ac6354f7902491c56787a
+Author: Jonothan98 <55722400+Jonothan98@users.noreply.github.com>
+Date:   Mon Jan 24 12:39:16 2022 -0600
+
+    Initial commit

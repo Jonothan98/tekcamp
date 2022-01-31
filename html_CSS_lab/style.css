@@ -62,7 +62,7 @@ section{
     
 }
 
-/*----- This is the parent of the button element. It is set so the button can be aligned to the bottom -----*/
+/*----- This is the parent of the button element. This is set so the button can be aligned to the bottom -----*/
 
 span{
     display: flex;
