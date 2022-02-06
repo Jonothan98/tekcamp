@@ -2,6 +2,7 @@ const faqList = document.querySelector("#faq-list")
 
 faqList.addEventListener('click', onClick);
 
+//When clicked, it checks if the item is a child of faq-item. If it is, it gets the toggleDropBox function
 function onClick(itemClicked){
 
     if(itemClicked.target.parentElement.classList.contains("faq-item") && itemClicked.target.classList.contains("question")){
