@@ -24,7 +24,7 @@ function toggleDropBox(textToggle, imageToggle, boldToggle){
 
     } else {
         textToggle.style.display = "block";
-        imageToggle.style.transform = "rotate(90deg)";
+        imageToggle.style.transform = "rotate(180deg)";
         boldToggle.style.fontWeight = 'bold';
     }
 }
