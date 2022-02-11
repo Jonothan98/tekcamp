@@ -1,8 +1,15 @@
+import react from "react";
+import Navbar from "./componets/Navbar";
+import Comments from "./componets/Comments";
+import Post from "./componets/Post";
+import './componets/style.css';
 
 function App() {
   return (
     <div >
-        <h1>Hello World</h1>
+        <Navbar/>
+        <Post/>
+        <Comments/>
     </div>
   );
 }
