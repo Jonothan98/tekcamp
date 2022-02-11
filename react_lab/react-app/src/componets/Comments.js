@@ -3,12 +3,20 @@ import './style.css';
 
 function Comments(){
     return(
-        <div className="commentContainer"> 
-            <div className="comment">
-                <img src="" alt="avatar"/>
-                <div className="commentInfo">
-                    <span className="date">Today at 6:00pm</span>
-                    <p className="text">nice post buddy</p>
+        <div className="bothContainer">
+            <div className="inputComment">
+                <input></input>
+                <div>
+                    <button>Post Comment</button>
+                </div>
+            </div>
+            <div className="commentContainer"> 
+                <div className="comment">
+                    <img src="" alt="avatar"/>
+                    <div className="commentInfo">
+                        <span className="date">Today at 6:00pm</span>
+                        <p className="text">nice post buddy</p>
+                    </div>
                 </div>
             </div>
         </div>
