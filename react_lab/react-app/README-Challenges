@@ -1,8 +1,10 @@
 Challenges
-    - The biggest challenge was pretty much everything regarding the api. Looking at the udemy, lecture, and various online resources every one used axios drastically differently which made things very confusing.
+    - The biggest challenge was pretty much everything regarding the API. Looking at the udemy, lecture, and various online resources every one used Axios drastically differently which made things very confusing.
+    - Had an issue with profile.js where it would work, but when I refresh the page it did not work. When refreshing the page it would render the page before it got a response back from the API. Joseph and Rami help me fix it by, making each of the information I needed into a setState. 
 
-Resources
-    - I used the demos done during the lectures as a resources. (The api demo and the react router demo)
-    - Another big help was Rami. I would not have been able to figure out the axios and getting the API information without his help. He was able to help me through it to better understand the code and how it works.
+Resources/Help
+    - I used the demos done during the lectures as a resource. (The API demo and the react-router demo)
+    - Another big help was Rami. I would not have been able to figure out the Axios and get the API information without his help. He was able to help me through it to better understand the code and how it works.
     - (https://www.w3schools.com/html/html_intro.asp) The documentation from this site was a big help for html,css,javascript, and react
-    - I followed along with the udemy for a bit in section 3 when he is working on the blog post. (A lot of the stuff regarding api from the udemy made me more confused. Things were a lot easier to understand when Rami was explaining it.) 
+    - I followed along with the udemy for a bit in section 3 when he is working on the blog post. (A lot of the stuff regarding API from the udemy made me more confused. Things were a lot easier to understand when Rami was explaining it.)
+    - Joseph also help when it came to clearing up my profile.js issue  
