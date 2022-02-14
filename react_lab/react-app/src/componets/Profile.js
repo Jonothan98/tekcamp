@@ -16,7 +16,7 @@ export default function Profile(){
         const headers = {"app-id": API_Key} 
         const response = await axios.get('https://dummyapi.io/data/v1/user/60d0fe4f5311236168a109ca', {headers})
         setUserData(response.data)
-        console.log(response.data)
+        console.log(userData)
     }
 
     return(
@@ -24,7 +24,7 @@ export default function Profile(){
             <img src={userData.picture} alt="Profile picture"/>
             <h2>{userData.firstName} {userData.lastName}</h2>
             <h2>Gender: {userData.gender}</h2>
-            <h2>{userData.dateOfBirth.substring(0,10)}</h2>
+            <h2>BirthDate: {userData.dateOfBirth.substring(0,10)}</h2>
             <h2>City: {userData.location.city}</h2>
             <h2>State: {userData.location.state}</h2>
             <h2>Country: {userData.location.country}</h2>

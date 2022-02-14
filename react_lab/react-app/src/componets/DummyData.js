@@ -29,9 +29,10 @@ export default function DummyData(){
                         <img src={postData.owner.picture} alt="avatar"/>
                         <p>{postData.owner.firstName} {postData.owner.lastName}</p>
                         <p className="date">{postData.publishDate.substring(0,10)} {postData.publishDate.substring(11, 19)}</p>
-                        <img src={postData.image} alt="postImage"/>
+                        <img className="postImage" src={postData.image} alt="postImage"/>
                         <h2 className="textPost">{postData.text}</h2>
                         <span>Likes: {postData.likes}</span>
+                        <p>Comments</p>
                         <Comments id={postData.id}/>
                     </div>
                </div>

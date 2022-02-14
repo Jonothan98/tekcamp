@@ -1,4 +1,4 @@
-
+/*----- These styles are for Navbar -----*/
 .navContainer{
     padding: 0;
     margin: 0;
@@ -10,47 +10,34 @@
     border-radius: 25px;
 }
 
-h1{
+.navLinks{
     padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    font-size: 20px;
+    color: black;
+    margin: .67em 0 .67em 0;
 }
 
-.commentContainer{
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5px;
+.navLinks:hover{
+    color: red;
 }
 
-.comment{
-    display: flex;
-    border-style: solid;
-    flex-direction: row;
 
-}
+/*----- These styles are for DummyData -----*/
 
 img{
     border-style: solid;
     border-radius: 5px;
-    margin: 5px 30px 5px 30px;
+    margin: 20px 30px 5px 30px;
+}
+
+.postImage{
+    width: 50%;
 }
 
 .date{
     font-size: 15px;
-}
-
-.commentInfo{
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
 }
 
 p{
@@ -93,14 +80,38 @@ h2{
     font-size: 30px;
 }
 
-.inputComment{
-    display: flex;
+/*----- These Styles are for Comments -----*/
 
+.commentContainer{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-radius: 25px;
 }
 
-.bothContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
+.commentImage{
+    width: 20%;
+    margin: 15px 15px 15px 15px;
+}
+
+.commentName{
+    font-size: 20px;
+}
+
+.textPost{
+    font-size: 30px;
+}
+
+.commentForm{
+    margin: 15px;
+}
+
+@media screen and (max-width: 375px){
+    .postImage{
+        width: 85%;
+    }
 }

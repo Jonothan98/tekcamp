@@ -29,14 +29,16 @@ export default function Comments({id}){
     return(
         <div>
             {comment.map((commentData) => (
-                <div key={commentData.id}>
-                    <img src={commentData.owner.picture} alt="User Picture"/>
-                    <p>{commentData.owner.firstName} {commentData.owner.lastName}</p>
-                    <p className="date">{commentData.publishDate.substring(0,10)} {commentData.publishDate.substring(11, 19)}</p>
-                    <h2 className="textPost">{commentData.message}</h2>
+                <div className="commentContainer" key={commentData.id}>
+                    <img className="commentImage"src={commentData.owner.picture} alt="User Picture"/>
+                    <div className="commentText">
+                        <p className="commentName">{commentData.owner.firstName} {commentData.owner.lastName}</p>
+                        <p className="date">{commentData.publishDate.substring(0,10)} {commentData.publishDate.substring(11, 19)}</p>
+                        <p className="textPost">{commentData.message}</p>
+                    </div>
                 </div>
             ))}
-            <form onSubmit={(e) => {addComment(e)}}>
+            <form className="commentForm" onSubmit={(e) => {addComment(e)}}>
                 <input onChange={(e) => {setInputValue(e.target.value)}} ></input>
                 <button>Post Comment</button>
             </form>
