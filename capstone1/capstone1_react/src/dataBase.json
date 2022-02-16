@@ -1,24 +1,128 @@
 {
     "products": [
         {
-            "id": 1,
+
             "name": "Ballpoint Pens",
             "serialNumber": 82978492,
-            "price": 7,
-            "manufacturer": "Paper People",
+            "price": 6,
+            "manufacturer": "Pen People",
+            "tags": "pens",
+            "quantity": 5,
+            "image": "./public/Images/ballPoint.jpg"
+              
+        },
+        {
+
+            "name": "Wooden Pencils",
+            "serialNumber": 88969446,
+            "price": 6,
+            "manufacturer": "Pencil People",
+            "tags": "pencils",
+            "quantity": 4
+              
+        },
+        {
+
+            "name": "Mechanical Pencils",
+            "serialNumber": 45847229,
+            "price": 5,
+            "manufacturer": "Pencil People",
+            "tags": "pencils",
+            "quantity": 3
+              
+        },
+        {
+
+            "name": "Office Pens",
+            "serialNumber": 94397746,
+            "price": 8,
+            "manufacturer": "Pen People",
             "tags": "pens",
             "quantity": 5
               
         },
         {
-            "id": 2,
-            "name": "Wooden Pencils",
-            "serialNumber": 88969446,
+
+            "name": "Highlighters",
+            "serialNumber": 55692245,
+            "price": 8,
+            "manufacturer": "Marker People",
+            "tags": "highlighters",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Markers",
+            "serialNumber": 28339326,
+            "price": 4,
+            "manufacturer": "Marker People",
+            "tags": "markers",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Dry Eraser Markers",
+            "serialNumber": 33628763,
+            "price": 9,
+            "manufacturer": "Marker People",
+            "tags": "markers",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Crayons",
+            "serialNumber": 43772854,
+            "price": 5,
+            "manufacturer": "Crayon People",
+            "tags": "crayons",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Fountain Pens",
+            "serialNumber": 93566725,
+            "price": 25,
+            "manufacturer": "Pen People",
+            "tags": "pens",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Acrylic Paint Brush set",
+            "serialNumber": 72742329,
             "price": 6,
-            "manufacturer": "Wood People",
-            "tags": "pencils",
-            "quantity": 4
+            "manufacturer": "Brush People",
+            "tags": "Brushes",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Watercolor Brushes",
+            "serialNumber": 77865887,
+            "price": 10,
+            "manufacturer": "Brush People",
+            "tags": "Brushes",
+            "quantity": 5
+              
+        },
+        {
+
+            "name": "Color Pencils",
+            "serialNumber": 24687342,
+            "price": 6,
+            "manufacturer": "Brush People",
+            "tags": "Brushes",
+            "quantity": 5
               
         }
+        
+        
+        
     ]
 }
