@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Ballpoint Pens",
+            "serialNumber": 82978492,
+            "price": 7,
+            "manufacturer": "Paper People",
+            "tags": "pens",
+            "quantity": 5
+              
+        },
+        {
+            "id": 2,
+            "name": "Wooden Pencils",
+            "serialNumber": 88969446,
+            "price": 6,
+            "manufacturer": "Wood People",
+            "tags": "pencils",
+            "quantity": 4
+              
+        }
+    ]
+}
