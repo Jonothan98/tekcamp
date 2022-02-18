@@ -1,5 +1,7 @@
 import React,{ useState, useEffect } from "react";
-import products from '../dataBase.json'
+import { Link } from 'react-router-dom';
+import products from '../dataBase.json';
+import './Styles/productPage.css';
 
 
 function ProductPage(){
@@ -8,24 +10,25 @@ function ProductPage(){
 
     useEffect(() => {
         setData(products.products);
-        console.log(productData);
     }, []);
     
     return(
         <div>
-            {productData.map((data) => {
-                return(
-                <div key={data.serialNumber}>
-                    <h1>{data.name}</h1>
-                    <h1>{data.serialNumber}</h1>
-                    <h1>{data.price}</h1>
-                    <h1>{data.manufacturer}</h1>
-                    <h1>{data.tags}</h1>
-                    <h1>{data.quantity}</h1>
-                    <img src={ process.env.PUBLIC_URL + data.image} alt="Product Image"/>
-                </div>
-                )
-            })}
+            <div>
+                <img className="heroImage" src="https://media.istockphoto.com/photos/school-supplies-picture-id1338302279?b=1&k=20&m=1338302279&s=170667a&w=0&h=hBbKPyS9bZCbHT3jGF2eH__oGxnrTVHVWNKcYuNt6hY="/>
+            </div>
+            <div className="pageContainer">
+                {productData.map((data) => {
+                    return(
+                    <div className="productContainer" key={data.serialNumber}>
+                        <img className="productImage" src={data.image} alt="Product Image"/>
+                        <h1>{data.name}</h1>
+                        <h1>Price: ${data.price}</h1>
+                        <Link to={`/${data.serialNumber}`} className="linkButton">Item Details</Link>
+                    </div>
+                    )
+                })}
+            </div>
         </div>
     );
 }

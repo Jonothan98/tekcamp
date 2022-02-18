@@ -1,14 +1,19 @@
 import React from 'react';
-import ProductPage from './Componets/ProductPage'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProductPage from './Componets/ProductPage';
+import ProductDetails from './Componets/ProductDetails';
 
 
 
 
 function App() {
   return (
-    <div>
-      <ProductPage/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ProductPage/>}/>
+        <Route path='/:productID' element = {<ProductDetails/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

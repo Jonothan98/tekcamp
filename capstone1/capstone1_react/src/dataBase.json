@@ -8,7 +8,7 @@
             "manufacturer": "Pen People",
             "tags": "pens",
             "quantity": 5,
-            "image": "./public/Images/ballPoint.jpg"
+            "image": "https://m.media-amazon.com/images/I/9144Be0-HNL._AC_UL320_.jpg"
               
         },
         {
@@ -18,8 +18,8 @@
             "price": 6,
             "manufacturer": "Pencil People",
             "tags": "pencils",
-            "quantity": 4
-              
+            "quantity": 4,
+            "image": "https://m.media-amazon.com/images/I/41LlkVU0XaL._AC_UL320_.jpg"
         },
         {
 
@@ -28,17 +28,19 @@
             "price": 5,
             "manufacturer": "Pencil People",
             "tags": "pencils",
-            "quantity": 3
+            "quantity": 3,
+            "image": "https://m.media-amazon.com/images/I/71RAuM6QeaL._AC_UL320_.jpg"
               
         },
         {
 
             "name": "Office Pens",
             "serialNumber": 94397746,
-            "price": 8,
+            "price": 7,
             "manufacturer": "Pen People",
             "tags": "pens",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/81JC9cmsjoL._AC_UL320_.jpg"
               
         },
         {
@@ -48,7 +50,8 @@
             "price": 8,
             "manufacturer": "Marker People",
             "tags": "highlighters",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/91TblySxY8L._AC_UL320_.jpg"
               
         },
         {
@@ -58,7 +61,8 @@
             "price": 4,
             "manufacturer": "Marker People",
             "tags": "markers",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/91DO3gK0KsL._AC_UL320_.jpg"
               
         },
         {
@@ -68,7 +72,8 @@
             "price": 9,
             "manufacturer": "Marker People",
             "tags": "markers",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/91rBV-KeTcL._AC_UL320_.jpg"
               
         },
         {
@@ -78,37 +83,41 @@
             "price": 5,
             "manufacturer": "Crayon People",
             "tags": "crayons",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/71X68RQajpL._AC_UL320_.jpg"
               
         },
         {
 
             "name": "Fountain Pens",
             "serialNumber": 93566725,
-            "price": 25,
+            "price": 13,
             "manufacturer": "Pen People",
             "tags": "pens",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/61t8QGKX+GL._AC_UL320_.jpg"
               
         },
         {
 
             "name": "Acrylic Paint Brush set",
             "serialNumber": 72742329,
-            "price": 6,
+            "price": 8,
             "manufacturer": "Brush People",
             "tags": "Brushes",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/81ON4-sLO0L._AC_UL320_.jpg"
               
         },
         {
 
             "name": "Watercolor Brushes",
             "serialNumber": 77865887,
-            "price": 10,
+            "price": 8,
             "manufacturer": "Brush People",
             "tags": "Brushes",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/61kWoEqBuPL._AC_UL320_.jpg"
               
         },
         {
@@ -118,7 +127,8 @@
             "price": 6,
             "manufacturer": "Brush People",
             "tags": "Brushes",
-            "quantity": 5
+            "quantity": 5,
+            "image": "https://m.media-amazon.com/images/I/71xNQafnQKL._AC_UL320_.jpg"
               
         }
         
