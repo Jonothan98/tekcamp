@@ -13,10 +13,11 @@
     margin: 0px;
     padding: 0px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, 350px);
     grid-gap: 100px;
     grid-auto-rows: max-content;
     margin: 60px 350px 60px 350px;
+    flex-wrap: wrap;
     
 }
 
@@ -28,7 +29,6 @@
     align-items: center;
     justify-content: center;
     border-style: solid;
-    
 }
 
 .productImage{
@@ -47,7 +47,7 @@ h1{
     margin: 20px 0px 20px 0px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     
     .heroImage{
         width: 100%;
@@ -60,6 +60,10 @@ h1{
         grid-auto-columns: minmax(100px, auto);
         margin: 0px;
         grid-gap: 50px;
+    }
+
+    .productContainer{
+        flex-wrap: wrap;
     }
 
 
