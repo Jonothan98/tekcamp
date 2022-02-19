@@ -16,21 +16,29 @@ function App() {
         setData(products.products);
     }, []);
 
-  const itemQuantity = (item) =>{
+  const addItem = (item) =>{
     const moreItems = cartItems.find((data) => data.serialNumber === item.serialNumber);
-     if(moreItems){
-       setCartItems(cartItems.map((x) => x.serialNumber === item.serialNumber ? {...moreItems, qty: moreItems.qty + 1}: x))
-     } else{
-        setCartItems([...cartItems, {...item, qty: 1}]);
+     if(moreItems && moreItems.qty === item.quantity){
+        console.log("more then what is available");
+     }else if(moreItems){
+      setCartItems(cartItems.map((x) => x.serialNumber === item.serialNumber ? {...moreItems, qty: moreItems.qty + 1}: x))
      }
+  }
+  
+  const removeItem = (item) =>{
+    const lessItems = cartItems.find((data) => data.serialNumber === item.serialNumber);
+    if(lessItems.qty === 1){
+      setCartItems(cartItems.filter((data) => data.serialNumber !== item.serialNumber))
+    } else{
+      setCartItems(cartItems.map((data) => data.serialNumber === item.serialNumber ? {...lessItems, qty: lessItems.qty - 1}: data))
+    }
   }
 
   const addToCart = (item) =>{
-    if(cartItems.find((data) => data.serialNumber === item.serialNumber)){
-    } else{
+    const moreItems = cartItems.find((data) => data.serialNumber === item.serialNumber);
+    if(!moreItems){
       setCartItems([...cartItems, {...item, qty: 1}]);
-    }
-    console.log(cartItems);
+    } 
   }
 
   return (
@@ -39,7 +47,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ProductPage data={productData}/>}/>
         <Route path='/product/:serialNumber' element = {<ProductDetails data={productData} addToCart={addToCart}/>}/>
-        <Route path="/cart" element= {<ShoppingCart cartItems={cartItems}/>}/>
+        <Route path="/cart" element= {<ShoppingCart cartItems={cartItems} addItem={addItem} removeItem={removeItem}/>}/>
       </Routes>
     </BrowserRouter>
   );

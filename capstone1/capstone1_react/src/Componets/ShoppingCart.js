@@ -1,14 +1,14 @@
 import React from "react";
 import "./Styles/shoppingCart.css"
 
-function ShoppingCart({ cartItems }) {
+function ShoppingCart({ cartItems, addItem, removeItem }) {
 
     let totalPrice = 0;
 
     cartItems.forEach(element => {
         totalPrice += element.price * element.qty;
     });
-    console.log(totalPrice.toFixed(2));
+
 
     return (
         <div>
@@ -23,6 +23,8 @@ function ShoppingCart({ cartItems }) {
                                 <p>{cartItems.name}</p>
                                 <p>Price: ${cartItems.price}</p>
                                 <p>Quantity Selected: {cartItems.qty}</p>
+                                <button onClick={() => addItem(cartItems)}>+</button>
+                                <button onClick={() => removeItem(cartItems)}>-</button>
                             </div>
 
                         </div>
