@@ -1,0 +1,51 @@
+
+.cartContainer{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.cartImgContainer{
+    width:auto;
+    height: auto;
+}
+
+.cartImage{
+    display: block;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.totalContainer{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: aquamarine;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.totalTitle{
+    margin-left: 10px;
+}
+
+.totalTextContainer{
+    margin-left: 10px;
+}
+
+.finalTotal{
+    margin-left: 10px;
+}
+
+p{
+    margin: 16px 0px 0px 10px;
+}

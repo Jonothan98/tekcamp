@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
 import './Styles/productDetails.css';
 
-function ProductDetails({ data }) {
+function ProductDetails({ data, addToCart }) {
 
     const { serialNumber } = useParams();
 
@@ -26,7 +26,7 @@ function ProductDetails({ data }) {
                             <label htmlFor="quantity">Quantity: </label>
                             <input type="number" id="quantity" name="quantity" />
                         </div>
-                        <button htmlFor="quantity">Add to Cart</button>
+                        <button htmlFor="quantity" onClick={() => addToCart(product)}>Add to Cart</button>
                     </div>
                 </div>
             ))}
