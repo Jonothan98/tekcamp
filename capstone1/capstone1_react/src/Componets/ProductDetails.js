@@ -22,10 +22,6 @@ function ProductDetails({ data, addToCart }) {
                         <h1>Manufacturer: {product.manufacturer}</h1>
                         <h1>Tags: {product.tags}</h1>
                         <h1>Quantity: {product.quantity}</h1>
-                        <div className="inputContainer">
-                            <label htmlFor="quantity">Quantity: </label>
-                            <input type="number" id="quantity" name="quantity" />
-                        </div>
                         <button htmlFor="quantity" onClick={() => addToCart(product)}>Add to Cart</button>
                     </div>
                 </div>

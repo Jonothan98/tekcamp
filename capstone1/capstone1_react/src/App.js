@@ -4,6 +4,7 @@ import ProductPage from './Componets/ProductPage';
 import ProductDetails from './Componets/ProductDetails';
 import NavBar from './Componets/NavBar';
 import ShoppingCart from './Componets/ShoppingCart';
+import CheckOut from './Componets/CheckOut';
 import products from './dataBase.json';
 
 
@@ -19,7 +20,7 @@ function App() {
   const addItem = (item) =>{
     const moreItems = cartItems.find((data) => data.serialNumber === item.serialNumber);
      if(moreItems && moreItems.qty === item.quantity){
-        console.log("more then what is available");
+        alert(`There is only ${moreItems.quantity} left in stock for this item`);
      }else if(moreItems){
       setCartItems(cartItems.map((x) => x.serialNumber === item.serialNumber ? {...moreItems, qty: moreItems.qty + 1}: x))
      }
@@ -36,9 +37,20 @@ function App() {
 
   const addToCart = (item) =>{
     const moreItems = cartItems.find((data) => data.serialNumber === item.serialNumber);
-    if(!moreItems){
+    if(!moreItems && item.quantity > 0){
       setCartItems([...cartItems, {...item, qty: 1}]);
     } 
+  }
+
+  const updateQuantity = (item) => {
+
+    item.map((itemData) => (
+      setData(productData.map((data) => data.serialNumber === itemData.serialNumber ? {...data, quantity: data.quantity - itemData.qty}: data))
+    ))
+    
+    setCartItems([]);
+    console.log(productData);
+    console.log(item);
   }
 
   return (
@@ -48,6 +60,7 @@ function App() {
         <Route path="/" element={<ProductPage data={productData}/>}/>
         <Route path='/product/:serialNumber' element = {<ProductDetails data={productData} addToCart={addToCart}/>}/>
         <Route path="/cart" element= {<ShoppingCart cartItems={cartItems} addItem={addItem} removeItem={removeItem}/>}/>
+        <Route path="/checkout" element={<CheckOut data={cartItems} updateQuantity={updateQuantity}/>}/>
       </Routes>
     </BrowserRouter>
   );

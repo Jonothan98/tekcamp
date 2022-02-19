@@ -1,5 +1,6 @@
 import React from "react";
-import "./Styles/shoppingCart.css"
+import { Link } from "react-router-dom";
+import "./Styles/shoppingCart.css";
 
 function ShoppingCart({ cartItems, addItem, removeItem }) {
 
@@ -17,7 +18,7 @@ function ShoppingCart({ cartItems, addItem, removeItem }) {
                     return (
                         <div key={cartItems.serialNumber} className="cartContainer">
                             <div className="cartImgContainer">
-                                <img className="cartImage" src={cartItems.image} />
+                                <img className="cartImage" src={cartItems.image} alt="Product Image"/>
                             </div>
                             <div className="cartTextContainer">
                                 <p>{cartItems.name}</p>
@@ -44,6 +45,7 @@ function ShoppingCart({ cartItems, addItem, removeItem }) {
                 })}
                 <div className="finalTotal"> 
                     <p>Totals: ${totalPrice.toFixed(2)}</p>
+                    <Link to="/checkout">Check Out</Link>
                 </div>
             </div>
         </div>

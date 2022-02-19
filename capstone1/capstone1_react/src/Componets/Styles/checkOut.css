@@ -1,0 +1,26 @@
+
+.checkoutContainer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    width: 50%;
+}
+
+.billInfo{
+    margin: 10px 0px 0px 20px;
+}
+
+.paymentInfo{
+    margin: 10px 0px 0px 0px;
+}
+
+.checkoutButton{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
