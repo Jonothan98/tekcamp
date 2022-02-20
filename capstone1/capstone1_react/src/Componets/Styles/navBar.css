@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-style: solid;
+    background-color: aqua;
     align-items: center;
     border-radius: 25px;
-    margin: 10px;
-    
+    margin: 10px 0px 10px 0px;
+    height: 50px;
 
 }
 
@@ -17,4 +17,41 @@
 
 .cartLink{
     margin-right: 10px;
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+    background-color: aqua;
+    justify-content: center;
+    align-content: center;
+
+}
+.resultsContainer{
+    display: block;
+
+}
+
+.results{
+    background-color: none;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0px;
+}
+
+.middleContainer{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+    position: relative;
+    
 }

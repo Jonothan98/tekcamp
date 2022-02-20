@@ -55,7 +55,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <NavBar data={cartItems}/>
+      <NavBar data={productData} cartItems={cartItems}/>
       <Routes>
         <Route path="/" element={<ProductPage data={productData}/>}/>
         <Route path='/product/:serialNumber' element = {<ProductDetails data={productData} addToCart={addToCart}/>}/>

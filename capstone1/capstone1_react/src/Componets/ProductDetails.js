@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useParams } from 'react-router-dom';
 import './Styles/productDetails.css';
 
@@ -13,7 +13,7 @@ function ProductDetails({ data, addToCart }) {
             {data.filter(product => product.serialNumber == serialNumber).map((product, index) => (
                 <div key={index} className="detailContainer">
                     <div className="imageContainer">
-                        <img className="proImage" src={product.image} alt="Product Image" />
+                        <img className="proImage" src={product.image} alt="Product" />
                     </div>
                     <div className="textContainer">
                         <h1 className="productName">{product.name}</h1>
