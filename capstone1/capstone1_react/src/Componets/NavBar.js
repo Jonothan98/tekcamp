@@ -9,41 +9,22 @@ function NavBar({ data, cartItems, isStaff, logOut }) {
 
     function searching(inputValue) {
 
-        if (isNaN(inputValue)) {
-            let filterData = data.filter((item) => {
-                return item.name.toLowerCase().includes(inputValue.toLowerCase());
-            })
+        const filterData = data.filter((item) => {
+            const userInput = inputValue.toLowerCase();
 
-            filterData = data.filter((item) => {
-                return item.manufacturer.toLowerCase().includes(inputValue.toLowerCase());
-            })
+            return (
+                item.name.toLowerCase().includes(userInput) ||
+                item.manufacturer.toLowerCase().includes(userInput) ||
+                item.tags.toLowerCase().includes(userInput) ||
+                item.price.toString().includes(userInput) ||
+                item.serialNumber.toString().includes(userInput)
+            )
+        })
 
-            filterData = data.filter((item) => {
-                return item.tags.toLowerCase().includes(inputValue.toLowerCase());
-            })
-
-            if (inputValue === "") {
-                setFoundItem([])
-            } else {
-                setFoundItem(filterData);
-            }
-
+        if (inputValue === "") {
+            setFoundItem([])
         } else {
-
-            let filterData = data.filter((item) => {
-                return item.price.toString().includes(inputValue);
-            })
-
-            filterData = data.filter((item) => {
-                return item.serialNumber.toString().includes(inputValue);
-            })
-
-            if (inputValue === "") {
-                setFoundItem([])
-            } else {
-                setFoundItem(filterData);
-            }
-
+            setFoundItem(filterData);
         }
 
     }
@@ -52,7 +33,7 @@ function NavBar({ data, cartItems, isStaff, logOut }) {
     return (
         <div className="navContainer">
             <div className="homeLinkContiner">
-                <Link to="/" className="link">Home Page</Link>
+                <Link to="/" className="homepageLink">Home Page</Link>
             </div>
             <div className="middleContainer">
                 <div className="searchContainer">

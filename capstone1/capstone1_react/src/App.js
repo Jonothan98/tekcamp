@@ -74,7 +74,7 @@ function App() {
         <Route path="/cart" element= {<ShoppingCart cartItems={cartItems} addItem={addItem} removeItem={removeItem}/>}/>
         <Route path="/checkout" element={<CheckOut data={cartItems} updateQuantity={updateQuantity}/>}/>
         <Route path="/login" element={<LogginPage isStaff={isStaff} checkStaff={checkStaff}/>}/>
-        <Route path="/staff" element={<StaffPage/>}/>
+        <Route path="/staff" element={<StaffPage productData={productData}/>}/>
       </Routes>
     </BrowserRouter>
   );

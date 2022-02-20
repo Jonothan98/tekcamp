@@ -2,8 +2,7 @@
 .navContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: aqua;
+    background-color: #98F6FF;
     align-items: center;
     border-radius: 25px;
     margin: 10px 0px 10px 0px;
@@ -11,8 +10,23 @@
 
 }
 
-.link{
+.homepageLink{
     margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+
+}
+
+.homepageLink:hover{
+    font-size: larger;
+}
+
+.homeLinkContiner{
+    display:block;
+    width: 10%;
+    margin-left: 10%;
 }
 
 .cartLink{
@@ -25,7 +39,7 @@
     flex-direction: column;
     overflow: visible;
     position: relative;
-    background-color: aqua;
+    background-color: #98F6FF;
     justify-content: center;
     align-content: center;
 
