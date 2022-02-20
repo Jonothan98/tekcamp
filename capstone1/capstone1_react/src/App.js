@@ -5,6 +5,8 @@ import ProductDetails from './Componets/ProductDetails';
 import NavBar from './Componets/NavBar';
 import ShoppingCart from './Componets/ShoppingCart';
 import CheckOut from './Componets/CheckOut';
+import StaffPage from './Componets/StaffPage';
+import LogginPage from './Componets/LogginPage';
 import products from './dataBase.json';
 
 
@@ -12,6 +14,7 @@ function App() {
 
   const [productData, setData] = useState([]);
   const [cartItems, setCartItems] = useState([]);
+  const [isStaff, setStaff] = useState(false);
 
     useEffect(() => {
         setData(products.products);
@@ -49,18 +52,29 @@ function App() {
     ))
     
     setCartItems([]);
-    console.log(productData);
-    console.log(item);
+
+  }
+
+  function checkStaff(userName,password){
+      if(userName !== "" && password !== ""){
+        setStaff(true);
+      }
+  }
+
+  function logOut(){
+    setStaff(false);
   }
 
   return (
     <BrowserRouter>
-      <NavBar data={productData} cartItems={cartItems}/>
+      <NavBar data={productData} cartItems={cartItems} isStaff={isStaff} logOut={logOut}/>
       <Routes>
         <Route path="/" element={<ProductPage data={productData}/>}/>
         <Route path='/product/:serialNumber' element = {<ProductDetails data={productData} addToCart={addToCart}/>}/>
         <Route path="/cart" element= {<ShoppingCart cartItems={cartItems} addItem={addItem} removeItem={removeItem}/>}/>
         <Route path="/checkout" element={<CheckOut data={cartItems} updateQuantity={updateQuantity}/>}/>
+        <Route path="/login" element={<LogginPage isStaff={isStaff} checkStaff={checkStaff}/>}/>
+        <Route path="/staff" element={<StaffPage/>}/>
       </Routes>
     </BrowserRouter>
   );

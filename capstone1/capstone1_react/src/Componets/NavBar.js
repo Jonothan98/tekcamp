@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import './Styles/navBar.css'
 
-function NavBar({ data, cartItems }) {
+function NavBar({ data, cartItems, isStaff, logOut }) {
 
     const [foundItem, setFoundItem] = useState([]);
 
@@ -27,6 +27,7 @@ function NavBar({ data, cartItems }) {
             } else {
                 setFoundItem(filterData);
             }
+
         } else {
 
             let filterData = data.filter((item) => {
@@ -72,6 +73,17 @@ function NavBar({ data, cartItems }) {
                 </div>
             </div>
             <div className="cartLinkContainer">
+                {isStaff && (
+                    <div>
+                        <Link to="/staff">Staff Page</Link>
+                        <button onClick={() => logOut()}>Log Out</button>
+                    </div>
+                )}
+                {!isStaff && (
+                    <div>
+                        <Link to="/login">Login</Link>
+                    </div>
+                )}
                 <Link to="/cart" className="cartLink">Cart: {cartItems.length}</Link>
             </div>
         </div>
