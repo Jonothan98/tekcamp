@@ -17,7 +17,7 @@ function ProductDetails({ data, addToCart }) {
                     </div>
                     <div className="textContainer">
                         <h1 className="productName">{product.name}</h1>
-                        <h1>Price: {product.price}</h1>
+                        <h1>Price: ${product.price.toFixed(2)}</h1>
                         <h1>Serial Number: {product.serialNumber}</h1>
                         <h1>Manufacturer: {product.manufacturer}</h1>
                         <h1>Tags: {product.tags}</h1>
