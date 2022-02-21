@@ -1,0 +1,43 @@
+
+.staffPageContainer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.addItemContainer{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+@media screen and (min-width: 400px) {
+
+    .staffPageContainer{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .addItemContainer{
+        margin: 0px 50px 0px 50px;
+    }
+    
+    .productDetails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin: 10px;
+    }
+    
+}

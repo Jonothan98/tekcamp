@@ -1,4 +1,4 @@
-
+/* 
 .navContainer{
     display: flex;
     flex-direction: row;
@@ -15,52 +15,75 @@
     text-decoration: none;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
+    font-weight:bold;
 
 }
 
-.homepageLink:hover{
+/* .homepageLink:hover{
     font-size: larger;
-}
-
+} */
+/* 
 .homeLinkContiner{
     display:block;
-    width: 10%;
+    width: 50%;
     margin-left: 10%;
 }
 
 .cartLink{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+    font-size: small;
+}
+
+a{
+    margin-right: auto;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+    font-size:smaller;
+}
+
+.cartLinkContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+
 }
 
 .searchContainer{
     display: flex;
     flex-direction: column;
     overflow: visible;
-    position: relative;
     background-color: #98F6FF;
     justify-content: center;
     align-content: center;
+    margin: auto;
 
 }
 .resultsContainer{
     display: block;
+    width: auto;
+    border-radius: 10px;
 
 }
 
 .results{
     background-color: none;
-    border-style: solid;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .inputContainer{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
-    position: relative;
-    margin: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
 }
 
 .middleContainer{
@@ -68,5 +91,155 @@
     margin-top: auto;
     margin-bottom: 10px;
     position: relative;
+    
+}
+
+.logBut{
+    display: flex;
+    flex-direction: row;
+}
+.logOutBut{
+    text-decoration: none;
+    border-style: none;
+    background: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+    font-size: small;
+}
+
+@media (hover:hover) {
+    .homepageLink:hover{
+        font-size: larger;
+    }
+
+    .cartLink:hover{
+        font-size: larger;
+    }
+
+    .logLink:hover{
+        font-size: larger;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+    .cartLinkContainer{
+        margin: 0px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+
+    .cartLink{
+        margin-left: 10%;
+    }
+    a{
+        font-size: larger;
+    }
+
+    .logOutBut{
+        font-size: larger;
+    }
+
+    .cartLink{
+        font-size: larger;
+    }
+    
+
+} */ 
+
+.navContainer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
+    background-color: #98F6FF;
+    border-radius: 25px;
+    padding: 5px;
+    
+}
+
+.cartLinkContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 0px 10px;
+
+}
+.cartLink{
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+    width: max-content;
+}
+
+.homepageLink{
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: max-content;
+}
+
+
+.logLink{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px
+}
+
+.inputContainer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.logBut{
+    display: flex;
+    flex-direction:column;
+}
+
+.resultsContainer{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.resultContainer{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.results{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:black;
+}
+
+@media screen and (min-width: 400px) {
+
+    .navContainer{
+        justify-content:left;
+        width: 100%;
+    }
+
+    .middleContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
     
 }

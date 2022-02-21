@@ -36,16 +36,60 @@
 
 .totalTitle{
     margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .totalTextContainer{
     margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .finalTotal{
     margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p{
     margin: 16px 0px 0px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.checkOutButton{
+    margin: 20px 0px 20px 0px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: #fffd82;
+}
+.checkOutButton:hover {
+    background-color: #e0df75;
+}
+
+@media screen and (min-width: 400px) {
+
+    .totalContainer{
+        align-items: center;
+    }
+
+    .totalTitle{
+        margin-left: 0px;
+    }
+
+    .totalTextContainer{
+        margin-left: 0px;
+    }
+
+    .finalTotal{
+        margin-left: 0px
+    }
+
+    .totalPriceText{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+
+    
+
 }

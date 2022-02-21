@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Styles/StaffPage.css'
 
 function StaffPage({ productData }) {
 
@@ -8,16 +9,15 @@ function StaffPage({ productData }) {
 
     function printData(e) {
         e.preventDefault();
-        console.log(e.target.name.value);
     }
 
 
     return (
-        <div>
+        <div className="staffPageContainer">
             <button onClick={() => setToggle(!toggleAdd)}>Add Item</button>
             <div>
                 {toggleAdd && (
-                    <form onSubmit={(e) => printData(e)}>
+                    <form className="addItemContainer" onSubmit={(e) => printData(e)}>
                         <label htmlFor="name">Product name:</label>
                         <input id="name" type="text" placeholder="Name" />
                         <label htmlFor="serialNumber">Product serial number:</label>
@@ -38,11 +38,11 @@ function StaffPage({ productData }) {
                     </form>
                 )}
             </div>
-            <div>
+            <div className="productDetails">
                 {productData.map((data) => {
                     return (
-                        <div key={data.serialNumber}>
-                            <div className="productDetailsContainer">
+                        <div className="productDetailsContainer" key={data.serialNumber}>
+                            <div  >
                                 <h1>{data.name}</h1>
                                 <p>Serial Number: {data.serialNumber}</p>
                                 <p>Price: {data.price.toFixed(2)}</p>

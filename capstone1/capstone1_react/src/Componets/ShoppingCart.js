@@ -44,8 +44,8 @@ function ShoppingCart({ cartItems, addItem, removeItem }) {
                     );
                 })}
                 <div className="finalTotal"> 
-                    <p>Totals: ${totalPrice.toFixed(2)}</p>
-                    <Link to="/checkout">Check Out</Link>
+                    <p className="totalPriceText">Totals: ${totalPrice.toFixed(2)}</p>
+                    <Link to="/checkout" className="checkOutButton">Check Out</Link>
                 </div>
             </div>
         </div>

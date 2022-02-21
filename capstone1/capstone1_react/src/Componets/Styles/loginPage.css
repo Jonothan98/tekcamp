@@ -1,0 +1,23 @@
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer{
+    display:flex;
+    flex-direction: column;
+    margin-top:  10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 400px) {
+
+    .formContainer{
+        margin: auto;
+        width: 25%;
+        margin-top: 20px;
+    }
+    
+}

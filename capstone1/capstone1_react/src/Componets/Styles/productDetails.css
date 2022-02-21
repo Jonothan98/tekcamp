@@ -6,6 +6,10 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px 0px 10px 0px;
 }
 
 .imageContainer{
@@ -27,14 +31,14 @@
     padding: 0px;
     display: flex;
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1{
     margin: 5px 0px 0px 0px;
     padding:0px;
     display:flex;
-    flex-wrap: wrap;
-    font-size: x-large;
+    font-size: large;
 }
 
 .productName{
@@ -61,18 +65,28 @@ input{
 }
 
 button{
-    display: block;
-    width: 50%;
-    margin: 5px 0px 0px 0px;
+    margin: 20px 0px 20px 0px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: #fffd82;
+}
+
+Button:hover {
+    background-color: #e0df75;
 }
 
 @media screen and (min-width: 400px) {
     .detailContainer{
         flex-direction: row;
         justify-content: center;
+        align-content: center;
     }
 
     .textContainer{
         margin-left: 20px;
     }
+
+
 }
