@@ -1,0 +1,386 @@
+commit c02d161ddfd50a65e81106ff02753f3039514513
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 24 17:23:06 2022 -0600
+
+    created UML branch and added Jpeg of UML assignment
+
+commit e27da8faa54095742191e2d618ed4cb8412d34fe
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 21 07:16:46 2022 -0600
+
+    added complete README-Challenges file
+
+commit 36eaa134edbd1ef3e431b7af0a7a8023da91b914
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 21 00:00:31 2022 -0600
+
+    corrected price html in productDetails Page
+
+commit 3d652fb5aff8b44a766f9cf298b1fbd97551f395
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 22:49:27 2022 -0600
+
+    merged capstone1 branch into develop branch
+
+commit ac680017ec9a34dc277be8908ea9f48a3a51d962
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 22:46:23 2022 -0600
+
+    added styles to call componets
+
+commit 15d35536704092b9d53501a951c7a8cfd9efed27
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 15:48:24 2022 -0600
+
+    add some html to staff page, and edited CSS for product page
+
+commit 9e45465ff2dbf5b6001b7abe3349b30beea2f0da
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 00:02:16 2022 -0600
+
+    can now logIn to a Staff page, navBar reflects login status
+
+commit 047bee81e31063355b554ff7ed17c0018097fa6c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sat Feb 19 20:38:31 2022 -0600
+
+    added search functinoality
+
+commit a16f163e9a10df0ac5a89ed9d42f5dd74e85bc9c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sat Feb 19 17:29:05 2022 -0600
+
+    Cart empties after purchase, and reduces quantity of items in stock
+
+commit 499f94874babbd1343dddb9b730b951689548506
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 18 18:53:35 2022 -0600
+
+    quantity functionality added to shopping cart page
+
+commit a10511607e3439dc74a20a2e2f3a87ffc9773ec3
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 18 18:15:58 2022 -0600
+
+    can now add item to cart from details page. Added some style to the cart page
+
+commit 8dc50db9f41cd3655f989383d86e7beb427637f5
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 18 11:30:23 2022 -0600
+
+    rough draft style for detail page and new navBar, started shoppingCart.JS
+
+commit 239bef7644f386e37ed61d446456c0ab76fb8902
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 17 23:24:04 2022 -0600
+
+    APP.js now gets JSON data and passes it through props, and ProductDetails.js now gets specific item data
+
+commit cd53b09881504a6dc46bd13d8e2535654c437d3b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 17 19:09:32 2022 -0600
+
+    rough styling for productPage. Started productDetails.js and the route to it
+
+commit 1b64811d210d85d62b24b724eee402d16ea8a4c4
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 16 17:47:34 2022 -0600
+
+    added more products to JSON file
+
+commit 5ba03e493391a604deb29578a7b2515cf3be0644
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 16 16:07:18 2022 -0600
+
+    created capstone branch, react project, JSON file, and rough draft productPage.js
+
+commit eaadbb3b675569184038b3053d1a97857340dbca
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 14 10:58:39 2022 -0600
+
+    commit git.log
+
+commit c6995e116ffa9e280fe7e7115c1efa1f888049d9
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 14 10:57:41 2022 -0600
+
+    commit final changes to README-Challenges
+
+commit 9b506b9ad6f38de3a975933691b58e45496b0bf8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 14 10:51:01 2022 -0600
+
+    fixed issue with profile.js not working upon refresh
+
+commit 10221199faf419cdd93c4f531a8cc6ff4934d774
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 13 23:27:41 2022 -0600
+
+    added README-Challenges file
+
+commit d20b0127e2e237d2969f7f684553e021f422b93b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 13 22:25:18 2022 -0600
+
+    Use routes to add functionality to navbar
+
+commit cb79008db092979fd0a128c403b818e32aaef81a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 13 19:09:42 2022 -0600
+
+    finished add comments and create comments
+
+commit e98df6ee8e574962ceafa4cfe2d52ea5088089c5
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sat Feb 12 20:57:20 2022 -0600
+
+    pictures are now being pulled from the dummy api
+
+commit afeec648ef83e290a060d048c88ed4220869c89a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 11 17:15:11 2022 -0600
+
+    completed rough draft of componet structure
+
+commit eca667ccb460c4e30bee8f172f02b0a1d68eef91
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 10 23:21:35 2022 -0600
+
+    adding basic comment, post, and nav componets with filler data
+
+commit 73f848ac61cdf181f5561515323fb2d8df2441ae
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 9 21:01:31 2022 -0600
+
+    created react branch and folder with starting js files
+
+commit 102ac61301675f05dc49271bc31e417c7b88e4cb
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 15:44:53 2022 -0600
+
+    commit git log for JavaScript lab
+
+commit 933dc71d5669daf7457a80bcd12c69e33f61efca
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 15:42:43 2022 -0600
+
+    Made correction to accordion arrow to flip 180 degrees instead of 90 degress
+
+commit 4a9e4ae2683c986e9ef53109f852f92df82db572
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 13:20:09 2022 -0600
+
+    completed readme-challenges for Accordion
+
+commit 375e621a815c49cd393818ee7897e9c089579772
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 13:18:22 2022 -0600
+
+    Completed Readme-challenges file
+
+commit 5971df56b6eb212f5231500d41c7b1762aee944a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 6 14:15:57 2022 -0600
+
+    add comment to Accordion JavaScript file
+
+commit 92db9486689b033e8d2f57fe0a24f674aacda08b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 6 14:11:03 2022 -0600
+
+    added bold text toggle to Accordion JavaScript file
+
+commit 2882048de7ae8aa00acbb3f9f6dea5977d4286fc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 4 17:07:19 2022 -0600
+
+    commit rough draft of Accordion javaScript file
+
+commit 725fde30e4a617f7177a94c890f594dc3ca85d2a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 4 14:40:54 2022 -0600
+
+    commit finishing touches to Form Validation javaScript file
+
+commit 8b6a579323061227543b5fab4678f8e99c532890
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 3 18:05:23 2022 -0600
+
+    add structure to JavaScript file
+
+commit 5d9e639c2c567203461c4e8b463df5723ba774de
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 3 17:32:58 2022 -0600
+
+    added a regex to help check email validation
+
+commit ec6c39b0765d010b975ab71980d8560a7c1e43bd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 3 16:00:42 2022 -0600
+
+    Set up javaScript file for Accordion assignment
+
+commit 64414dc0dfc9f9b5f11ab60ffca86f463147a252
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 2 20:21:50 2022 -0600
+
+    Commit rough draft of FORM VALIDATION javascript
+
+commit c8e672b4a4944045f7684cc404b7b963925d7e60
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Feb 1 16:51:44 2022 -0600
+
+    made correction in script placement in HTML
+
+commit ff6028257a985a86694fe66f0f3c9d2c6f5e1017
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Feb 1 16:30:26 2022 -0600
+
+    Commit javaScriptLab branch and add provided resources for assignment
+
+commit c708b79c5cb3ca9083ca197d4fcd4e6d37c081de
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 21:19:04 2022 -0600
+
+    Made a correction to some padding on CSS
+
+commit ef89b03034548df4e23ce73d3d3c1f7fb138a4e2
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 21:10:09 2022 -0600
+
+    spelling corrections to html comment
+
+commit 80b62d41618414f6f2efcfce57d66e9025586363
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 20:59:25 2022 -0600
+
+    Added comments to html and added git log and readme challenges
+
+commit 7c954744f8e8fda34d1c5266cf11728ed50a75f8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 13:19:05 2022 -0600
+
+    Clean up html and CSS code, and added comments to CSS
+
+commit 6b9fd7a7ad6e912a70316a933fab502373c06f5c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 12:47:18 2022 -0600
+
+    Edited buttons in html to making styling easier in CSS
+
+commit ace547bc94c6e8eee509473df02d028bb0276899
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Jan 28 16:43:23 2022 -0600
+
+    added mediaQ and made small changes to index and style files
+
+commit db848ec7483e3795d89f1d42d14f0dbc7a08a4ff
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Jan 27 23:06:16 2022 -0600
+
+    commit html structure done  and currently editing CSS
+
+commit ebb48afaf3c8532e64cf25c2fe975c998eecd602
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:21:28 2022 -0600
+
+    corrected index changes
+
+commit 84c1869bbc6f677c0840ed952932cf32ad10ea23
+Merge: 58646df c983d94
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:17:37 2022 -0600
+
+    corrected files git.log and index
+
+commit 58646df19395335c791afc395174c09369cb8176
+Merge: 3b7319e 47f6b83
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:15:17 2022 -0600
+
+    Merge branch 'undo-reset' into develop
+
+commit 3b7319e79f40dc23fffefc4c9ad9375461560a19
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:14:56 2022 -0600
+
+    corrected index file name
+
+commit 47f6b8320b95780cf392d89295a0f8e8d19df3b2
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:13:29 2022 -0600
+
+    deleted extra git.log
+
+commit e9e700ece037baf9c41aaf008e72cbf663175d78
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:07:41 2022 -0600
+
+    commit undo-reset with git log
+
+commit c983d94e7ab9c2bbd9a9bfb7d8f92a606e3bdf6d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 13:51:35 2022 -0600
+
+    edited index.html file name
+
+commit 3554848cf1e1a320557342991454b0dc1a97f5fc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 13:47:49 2022 -0600
+
+    added git log to git
+
+commit f5a336897a1fa04cce97fd1fc024c726efb13498
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:38:11 2022 -0600
+
+    commit changes to undo-reset
+
+commit 678afb0f26083af92382561674d47b2da3434b68
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:25:57 2022 -0600
+
+    commit h2-tag after adding
+
+commit e6cd991155b5c6f26e5d84dc66cf36968c269b49
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:24:51 2022 -0600
+
+    commit h2-tag
+
+commit 41870d5b6e186102a154b97a998cc2b6469be9cd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:09:44 2022 -0600
+
+    index.html change
+
+commit f22455b9e0ad18dff66a5d1a17ced5138605361b
+Merge: 9a0b65a f0ca70c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:04:08 2022 -0600
+
+    merge conflict
+
+commit f0ca70c04a12a8f1a43f6012898699776d65140a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:51:17 2022 -0600
+
+    commit updated-title
+
+commit 9a0b65a99c6a7f5ad2a78d2c81cab169304da90d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:49:10 2022 -0600
+
+    commit new-body
+
+commit 3c199ca90b8c2b6d40c48fe3477f6798cdcc8adc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:07:50 2022 -0600
+
+    commit new-html
+
+commit 886992c15c7a487e180ac6354f7902491c56787a
+Author: Jonothan98 <55722400+Jonothan98@users.noreply.github.com>
+Date:   Mon Jan 24 12:39:16 2022 -0600
+
+    Initial commit
