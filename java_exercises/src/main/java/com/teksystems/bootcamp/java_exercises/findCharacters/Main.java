@@ -16,6 +16,9 @@ public class Main {
         System.out.println("Input string to search for those characters: ");
         stringToSearch = myScanner.nextLine();
 
+        charToFind = charToFind.toLowerCase();
+        stringToSearch = stringToSearch.toLowerCase();
+
         System.out.println(charFinder.findMatchPositions(charToFind, stringToSearch));
     }
 }
