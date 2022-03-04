@@ -7,22 +7,26 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in);
-//        LocationPointer finalPositition = new LocationPointer();
 
         System.out.println("Enter a number to be a square array");
         int arrayValue;
 
-        arrayValue = myScanner.nextInt();
 
-        System.out.println(BoardHopper.hop(BoardGenerator.createBoard(arrayValue, arrayValue)));
+        while(myScanner.hasNextInt()){
+            arrayValue = myScanner.nextInt();
+            LocationPointer[][] myBoard = BoardGenerator.createBoard(arrayValue,arrayValue);
 
+            for(int i = 0; i < myBoard.length; i++){
+                System.out.println(" ");
+                for(int j = 0; j < myBoard.length; j++){
+                    System.out.print("(" + myBoard[i][j].getTargetX() + ","+ myBoard[i][j].getTargetY() + ") ");
+                }
+            }
 
-//        while(myScanner.hasNextInt()){
-//            arrayValue = myScanner.nextInt();
-//
-//
-//
-//        }
+            LocationPointer finalValue = BoardHopper.hop(myBoard);
+            System.out.println("\nThis is the end " + finalValue.getTargetX() + " " + finalValue.getTargetY());
+
+        }
 
 
 
