@@ -2,7 +2,7 @@ package com.teksystems.bootcamp.java_exercises.factorByTwo;
 
 public class ValueNode extends Node {
 
-    int num;
+    private final int num;
 
     public ValueNode(int num){
         this.num = num;

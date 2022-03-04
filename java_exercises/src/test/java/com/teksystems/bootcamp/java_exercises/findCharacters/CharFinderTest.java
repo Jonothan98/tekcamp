@@ -13,8 +13,6 @@ public class CharFinderTest{
     @Test
     public void testFindMatchPositionsInputVehicleAndHello() {
 
-        CharFinder charFinder = new CharFinder();
-
         HashMap<Character, List<Integer>> expected = new HashMap<Character,List<Integer>>();
         expected.put('v', new ArrayList<Integer>());
         expected.put('e', new ArrayList<Integer>());
@@ -27,7 +25,7 @@ public class CharFinderTest{
         expected.get('l').add(2);
         expected.get('l').add(3);
 
-       Assert.assertEquals(charFinder.findMatchPositions("vehicle", "hello"), expected);
+       Assert.assertEquals(CharFinder.findMatchPositions("vehicle", "hello"), expected);
 
 
 
@@ -36,18 +34,16 @@ public class CharFinderTest{
     @Test
     public void testFindMatchPositionsInputTestAndPassed() {
 
-        CharFinder charFinder = new CharFinder();
 
         HashMap<Character, List<Integer>> expected = new HashMap<Character,List<Integer>>();
         expected.put('t', new ArrayList<Integer>());
         expected.put('e', new ArrayList<Integer>());
         expected.put('s', new ArrayList<Integer>());
-        expected.put('t', new ArrayList<Integer>());
         expected.get('e').add(4);
         expected.get('s').add(2);
         expected.get('s').add(3);
 
-        Assert.assertEquals(charFinder.findMatchPositions("test", "passed"), expected);
+        Assert.assertEquals(CharFinder.findMatchPositions("test", "passed"), expected);
 
 
 
@@ -55,8 +51,6 @@ public class CharFinderTest{
 
     @Test
     public void testFindMatchPositionsInputJumpAndBump() {
-
-        CharFinder charFinder = new CharFinder();
 
         HashMap<Character, List<Integer>> expected = new HashMap<Character,List<Integer>>();
         expected.put('j', new ArrayList<Integer>());
@@ -67,14 +61,12 @@ public class CharFinderTest{
         expected.get('m').add(2);
         expected.get('p').add(3);
 
-        Assert.assertEquals(charFinder.findMatchPositions("jump", "Bump"), expected);
+        Assert.assertEquals(CharFinder.findMatchPositions("jump", "Bump"), expected);
 
     }
 
     @Test
     public void testFindMatchPositionsInputBeachAndBasketBall() {
-
-        CharFinder charFinder = new CharFinder();
 
         HashMap<Character, List<Integer>> expected = new HashMap<Character,List<Integer>>();
         expected.put('b', new ArrayList<Integer>());
@@ -88,14 +80,12 @@ public class CharFinderTest{
         expected.get('a').add(1);
         expected.get('a').add(7);
 
-        Assert.assertEquals(charFinder.findMatchPositions("beach", "basketball"), expected);
+        Assert.assertEquals(CharFinder.findMatchPositions("beach", "basketball"), expected);
 
     }
 
     @Test
     public void testFindMatchPositionsInputSleepAndDreams() {
-
-        CharFinder charFinder = new CharFinder();
 
         HashMap<Character, List<Integer>> expected = new HashMap<Character,List<Integer>>();
         expected.put('s', new ArrayList<Integer>());
@@ -105,7 +95,7 @@ public class CharFinderTest{
         expected.get('s').add(5);
         expected.get('e').add(2);
 
-        Assert.assertEquals(charFinder.findMatchPositions("sleep", "dreams"), expected);
+        Assert.assertEquals(CharFinder.findMatchPositions("sleep", "dreams"), expected);
 
 
 

@@ -8,13 +8,10 @@ public class CharFinder {
 
     public static HashMap<Character, List<Integer>> findMatchPositions (String charsToFind, String stringToSearch){
 
-        HashMap<Character, List<Integer>> chars = new HashMap<Character,List<Integer>>();
+        HashMap<Character, List<Integer>> chars = new HashMap<>();
 
         for(int i = 0; i < charsToFind.length(); i++){
-
-            if(!chars.containsKey(charsToFind.charAt(i))){
-                chars.put(charsToFind.charAt(i), new ArrayList<Integer>());
-            }
+            chars.put(charsToFind.charAt(i), new ArrayList<Integer>());
         }
 
         for(int i =0; i < stringToSearch.length();i++){
