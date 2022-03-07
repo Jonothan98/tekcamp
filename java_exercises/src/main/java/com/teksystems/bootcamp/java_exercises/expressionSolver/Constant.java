@@ -10,6 +10,6 @@ public class Constant extends Term{
 
     @Override
     public double getValue() {
-        return 0;
+        return value;
     }
 }
