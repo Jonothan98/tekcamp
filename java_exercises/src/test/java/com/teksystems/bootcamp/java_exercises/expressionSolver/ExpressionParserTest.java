@@ -8,8 +8,6 @@ public class ExpressionParserTest {
     @Test
     public void testParseExpressionReturn2WithEveryOperation() {
 
-        //1+4*7%3/4*2^2
-
         Term term = ExpressionParser.ParseExpression("1+4*7%3/4*2^2");
 
         String expected = "2.0";
@@ -20,8 +18,6 @@ public class ExpressionParserTest {
 
     @Test
     public void testParseExpressionReturn27andAHalf() {
-
-        //1+4*7%3/4*2^2
 
         Term term = ExpressionParser.ParseExpression("1+4*7-3/4*2");
 

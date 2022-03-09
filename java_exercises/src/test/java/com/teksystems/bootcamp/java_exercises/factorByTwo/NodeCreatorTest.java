@@ -3,12 +3,10 @@ package com.teksystems.bootcamp.java_exercises.factorByTwo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 public class NodeCreatorTest {
 
     @Test
-    public void testCreateNodeTest1() {
+    public void testCreateNodeInput4Return2() {
 
         Node node = NodeCreator.createNode(4);
 
@@ -16,7 +14,7 @@ public class NodeCreatorTest {
     }
 
     @Test
-    public void testCreateNodeTest2() {
+    public void testCreateNodeInput80Return4() {
 
         Node node = NodeCreator.createNode(80);
 
@@ -24,7 +22,7 @@ public class NodeCreatorTest {
     }
 
     @Test
-    public void testCreateNodeTest3() {
+    public void testCreateNodeInput128Return7() {
 
         Node node = NodeCreator.createNode(128);
 
@@ -32,7 +30,7 @@ public class NodeCreatorTest {
     }
 
     @Test
-    public void testCreateNodeTest4() {
+    public void testCreateNodeInput5Return0() {
 
         Node node = NodeCreator.createNode(5);
 
@@ -40,7 +38,7 @@ public class NodeCreatorTest {
     }
 
     @Test
-    public void testCreateNodeTest5() {
+    public void testCreateNodeInput2Return1() {
 
         Node node = NodeCreator.createNode(2);
 
