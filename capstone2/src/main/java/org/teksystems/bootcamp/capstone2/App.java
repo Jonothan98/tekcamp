@@ -8,6 +8,12 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        SandwichCreator sandwich = new SandwichCreator();
+        ItemPointer[] sandwichPointer = sandwich.pickSandwichMeat();
+
+        System.out.println(sandwichPointer[0].getItemName() + ", "+ sandwichPointer[0].getItemPrice());
+
+
     }
 }
