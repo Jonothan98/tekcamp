@@ -1,4 +1,4 @@
-package org.teksystems.bootcamp.capstone2;
+package org.teksystems.bootcamp.capstone2.Entrees;
 
 import java.util.ArrayList;
 
@@ -17,22 +17,26 @@ public class Sandwich{
         this.price = price;
     }
 
-    public void getBreadType(String breadType, double price) {
+    public void setBreadType(String breadType, double price) {
         this.price += price;
         this.breadType = breadType;
     }
 
-    public void getMeatType(String meatType, double price) {
+    public void setMeatType(String meatType, double price) {
         this.price += price;
         this.meatType = meatType;
     }
 
-    public void getToppingType(String toppingType, double price) {
+    public void setToppingType(String toppingType, double price) {
         this.price += price;
         this.toppingType.add(toppingType);
     }
 
+    public double getPrice(){
+        return price;
+    }
+
     public void getSandwich(){
-        System.out.println(breadType + " " + meatType + " " + toppingType + " " + price);
+        System.out.println(breadType + " " + meatType + " " + toppingType + " $" + price);
     }
 }

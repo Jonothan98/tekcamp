@@ -1,4 +1,4 @@
-package org.teksystems.bootcamp.capstone2;
+package org.teksystems.bootcamp.capstone2.MenuItems;
 
 public enum AccessoriesChoice {
 
@@ -15,5 +15,13 @@ public enum AccessoriesChoice {
     AccessoriesChoice(String accessoryName, double accessoryPrice){
         this.accessoryName = accessoryName;
         this.accessoryPrice = accessoryPrice;
+    }
+
+    public String getAccessoryName() {
+        return accessoryName;
+    }
+
+    public double getAccessoryPrice() {
+        return accessoryPrice;
     }
 }

@@ -1,14 +1,14 @@
-package org.teksystems.bootcamp.capstone2;
+package org.teksystems.bootcamp.capstone2.Entrees;
 
 import java.util.ArrayList;
 
 public class Plate {
 
     private String meatType;
-    private ArrayList<String> sideType = new ArrayList<>();
+    private final ArrayList<String> sideType = new ArrayList<>();
     private double platePrice;
 
-    Plate(String meatType, String sideType, double platePrice){
+    public Plate(String meatType, String sideType, double platePrice){
         this.meatType = meatType;
         this.sideType.add(sideType);
         this.platePrice = platePrice;
@@ -25,6 +25,6 @@ public class Plate {
     }
 
     public void getPlate(){
-        System.out.println(meatType + ", " + sideType + ", " + platePrice);
+        System.out.println(meatType + ", " + sideType + ", $" + platePrice);
     }
 }

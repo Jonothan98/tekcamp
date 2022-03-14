@@ -1,6 +1,6 @@
-package org.teksystems.bootcamp.capstone2;
+package org.teksystems.bootcamp.capstone2.MenuItems;
 
-public enum Sides {
+public enum SidesChoice {
 
     BEANS ("Beans", 1 ),
     POTATOSALAD ("Potato Salad", 1),
@@ -10,7 +10,7 @@ public enum Sides {
     final String sideName;
     final double sidePrice;
 
-    Sides(String sideName, double sidePrice){
+    SidesChoice(String sideName, double sidePrice){
         this.sideName = sideName;
         this.sidePrice = sidePrice;
     }

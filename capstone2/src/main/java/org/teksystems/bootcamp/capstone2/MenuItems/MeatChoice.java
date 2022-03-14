@@ -1,4 +1,4 @@
-package org.teksystems.bootcamp.capstone2;
+package org.teksystems.bootcamp.capstone2.MenuItems;
 
 public enum MeatChoice {
     SAUSAGE("Sausage", 5),
