@@ -22,8 +22,9 @@ public class ClassicBBQSandwich extends Sandwich {
 
     @Override
     public void getSandwich() {
+        System.out.println("Classic BBQ Sandwich Combo");
         super.getSandwich();
-        System.out.println(" \t w/ "+softDrink +" \n \t w/ " + accessory);
+        System.out.println("\t w/ "+softDrink +" \n \t w/ " + accessory);
 
     }
 }

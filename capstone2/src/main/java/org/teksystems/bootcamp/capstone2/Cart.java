@@ -2,6 +2,7 @@ package org.teksystems.bootcamp.capstone2;
 
 import org.teksystems.bootcamp.capstone2.Entrees.Plate;
 import org.teksystems.bootcamp.capstone2.Entrees.Sandwich;
+import org.teksystems.bootcamp.capstone2.MenuItems.AccessoriesChoice;
 
 import java.math.BigDecimal;
 import java.text.NumberFormat;
@@ -12,6 +13,7 @@ public class Cart {
 
     ArrayList<Sandwich> sandwichInCart = new ArrayList<>();
     ArrayList<Plate> plateInCart = new ArrayList<>();
+    ArrayList<AccessoriesChoice> accessoriesInCart = new ArrayList<>();
     double subTotal;
     double totalPrice;
 
@@ -25,6 +27,10 @@ public class Cart {
         this.plateInCart.add(plate);
     }
 
+    public void addAccessoryToCart(AccessoriesChoice accessory){
+        this.accessoriesInCart.add(accessory);
+    }
+
     public double getTotalPrice(double price){
         double foodTax = 1.0825;
         this.subTotal += price;
@@ -35,10 +41,12 @@ public class Cart {
 
     public void getCart(){
 
-        BigDecimal bigDecimal = new BigDecimal(totalPrice);
+        BigDecimal bigTotal = new BigDecimal(this.totalPrice);
+        BigDecimal subTotal = new BigDecimal(this.subTotal);
         NumberFormat format = NumberFormat.getCurrencyInstance(Locale.US);
 
-        String total = format.format(bigDecimal);
+        String subtotal= format.format(subTotal);
+        String total = format.format(bigTotal);
 
         System.out.println("-------Cart View-------------------------------------------");
         for (Sandwich sandwich : sandwichInCart) {
@@ -49,13 +57,18 @@ public class Cart {
             plate.getPlate();
         }
 
-        System.out.println("-SubTotal: " + subTotal);
+        for(AccessoriesChoice accessory : accessoriesInCart){
+            System.out.println("-" + accessory.getAccessoryName() + "\t$" + accessory.getAccessoryPrice());
+        }
+
+        System.out.println("-SubTotal: " + subtotal);
         System.out.println("-Total: " + total);
     }
 
     public void clearCart(){
         this.sandwichInCart.clear();
         this.plateInCart.clear();
+        this.accessoriesInCart.clear();
         this.subTotal = 0;
         this.totalPrice = 0;
     }

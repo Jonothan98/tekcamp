@@ -12,6 +12,7 @@ public class TheRibCombo extends Plate{
 
     @Override
     public void getPlate() {
+        System.out.println("The Rib Plate Combo");
         super.getPlate();
         System.out.println(" \t w/ "+softDrink);
     }

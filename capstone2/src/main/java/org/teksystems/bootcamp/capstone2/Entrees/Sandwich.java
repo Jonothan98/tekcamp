@@ -51,6 +51,5 @@ public class Sandwich{
                 System.out.println("\t" + s);
         }
 
-        //System.out.println(breadType + " " + meatType + " " + toppingType + " $" + price);
     }
 }

@@ -12,6 +12,7 @@ public class ClassicPlateCombo extends Plate{
 
     @Override
     public void getPlate() {
+        System.out.println("Classic Plate Combo");
         super.getPlate();
         System.out.println(" \t w/ "+softDrink);
     }

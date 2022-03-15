@@ -1,9 +1,6 @@
 package org.teksystems.bootcamp.capstone2;
 
-import org.teksystems.bootcamp.capstone2.Entrees.ClassicBBQSandwich;
-import org.teksystems.bootcamp.capstone2.Entrees.Plate;
-import org.teksystems.bootcamp.capstone2.Entrees.Sandwich;
-import org.teksystems.bootcamp.capstone2.Entrees.TheRegularSandwich;
+import org.teksystems.bootcamp.capstone2.Entrees.*;
 import org.teksystems.bootcamp.capstone2.MenuItems.*;
 
 import java.util.Scanner;
@@ -12,51 +9,36 @@ public class ConsoleUI {
 
     Cart cart = new Cart();
     Receipt receipt = new Receipt();
+    Scanner myScanner = new Scanner(System.in);
+    CreateMenu menu = new CreateMenu();
 
 
     public void setConsoleUI(){
 
-        Scanner myScanner = new Scanner(System.in);
-
-        AccessoriesChoice[] accessoriesChoices = AccessoriesChoice.values();
-        SidesChoice[] sides = SidesChoice.values();
-        Plate plate = new Plate("","", 0);
-
         boolean userIsActive = true;
         int userDecision;
-
-//        System.out.println("Main Menu: 1.Make Order 2.Review Order History");
-//        userDecision = myScanner.nextInt();
 
         while(userIsActive){
             System.out.println("Main Menu: 1.Make Order 2.View Cart 3.View Order History 0.Exit");
             userDecision = myScanner.nextInt();
+
             if(userDecision == 1){
-                System.out.println("1.Sandwich 2.Plate");
+                System.out.println("1.Sandwich 2.Plate 3.Accessory 0.Main Menu");
                 userDecision = myScanner.nextInt();
 
                 if(userDecision == 1){
                     userPicksSandwich();
-                } else {
-                    userIsActive =false;
-                }
 
+                } else if(userDecision == 2){
+                    userPicksPlate();
+                } else if(userDecision == 3){
+                    userPicksAccessory();
+                }
 
             } else if(userDecision == 2){
-                cart.getCart();
-                System.out.println("--------1.Checkout 2.Continue Ordering----------");
-                userDecision = myScanner.nextInt();
-                if(userDecision == 1){
-                    receipt.setOrders(cart);
-                    receipt.getReceipt();
-                    cart = new Cart();
-                }
-
+                userViewsCart();
             } else if(userDecision == 3){
-                System.out.println("Enter Order Number");
-                userDecision = myScanner.nextInt();
-                receipt.reviewOrders(userDecision);
-
+                userViewsOrderHistory();
             } else{
                 userIsActive = false;
             }
@@ -66,8 +48,6 @@ public class ConsoleUI {
 
     public void userPicksSandwich(){
 
-        Scanner myScanner = new Scanner(System.in);
-
         MeatChoice[] meatChoices = MeatChoice.values();
         BreadChoice[] breadChoices = BreadChoice.values();
         ToppingsChoice[] toppingsChoices = ToppingsChoice.values();
@@ -75,8 +55,6 @@ public class ConsoleUI {
 
         ClassicBBQSandwich classicBBQSandwich = new ClassicBBQSandwich("");
         TheRegularSandwich theRegularSandwich = new TheRegularSandwich("");
-
-        CreateMenu Menu = new CreateMenu();
 
         boolean userIsActive = true;
         int usersDecision;
@@ -86,18 +64,18 @@ public class ConsoleUI {
             usersDecision = myScanner.nextInt();
             if(usersDecision == 1){
                 Sandwich sandwich = new Sandwich(null,null,"", 0);
-                Menu.presentMeat();
+                menu.presentMeat();
                 System.out.println("--------Pick Your meat------------------------");
                 usersDecision = myScanner.nextInt();
                 sandwich.setMeatType(meatChoices[usersDecision-1].getMeatName(),meatChoices[usersDecision-1].getMeatPrice());
 
-                Menu.presentBread();
+                menu.presentBread();
                 System.out.println("--------Pick Your Bread-----------------------");
                 usersDecision = myScanner.nextInt();
                 sandwich.setBreadType(breadChoices[usersDecision-1].getBreadName(),breadChoices[usersDecision-1].getBreadPrice());
 
                 while(usersDecision != 0){
-                    Menu.presentToppings();
+                    menu.presentToppings();
                     System.out.println("--------Pick Your Toppings or Press 0 to End--------------");
                     usersDecision = myScanner.nextInt();
 
@@ -109,16 +87,15 @@ public class ConsoleUI {
 
                 cart.addSandwichToCart(sandwich);
                 cart.getTotalPrice(sandwich.getPrice());
-                //cart.getCart();
 
             } else if(usersDecision == 2){
 
-                Menu.presentSandwichCombos();
+                menu.presentSandwichCombos();
                 System.out.println("--------Pick Your Combo-----------------------");
                 usersDecision = myScanner.nextInt();
 
                 if(usersDecision == 1){
-                    Menu.presentAccessories();
+                    menu.presentAccessories();
 
                     System.out.println("--------Pick Your Accessory----------------");
                     usersDecision = myScanner.nextInt();
@@ -128,7 +105,7 @@ public class ConsoleUI {
                     cart.getTotalPrice(theRegularSandwich.getPrice());
 
                 } else if (usersDecision == 2){
-                    Menu.presentAccessories();
+                    menu.presentAccessories();
 
                     System.out.println("--------Pick Your Accessory----------------");
                     usersDecision = myScanner.nextInt();
@@ -144,6 +121,114 @@ public class ConsoleUI {
                 userIsActive = false;
             }
 
+        }
+
+    }
+
+    public void userPicksPlate(){
+        MeatChoice[] meatChoices = MeatChoice.values();
+        SidesChoice[] sidesChoices = SidesChoice.values();
+
+        ClassicPlateCombo classicPlateCombo = new ClassicPlateCombo();
+        TheRibCombo theRibCombo = new TheRibCombo();
+
+        boolean userIsActive = true;
+        int usersDecision;
+
+        while(userIsActive){
+            System.out.println("1.Build a Plate 2.View Combos 0.Go Back");
+            usersDecision = myScanner.nextInt();
+            if(usersDecision == 1){
+                Plate plate = new Plate("","", 0);
+                menu.presentMeat();
+                boolean pickedMeat = false;
+                System.out.println("--------Pick Your meat------------------------");
+                while(!pickedMeat) {
+                    usersDecision = myScanner.nextInt();
+                    if(usersDecision > 0 && usersDecision < meatChoices.length) {
+                        plate.setMeatType(meatChoices[usersDecision - 1].getMeatName(), meatChoices[usersDecision - 1].getMeatPrice());
+                        pickedMeat = true;
+                    } else {
+                        System.out.println("Your choice is out of bounds! Try again!");
+                    }
+                }
+
+                while(usersDecision != 0){
+                    menu.presentSides();
+                    System.out.println("--------Pick Your Sides or Press 0 to End--------------");
+                    usersDecision = myScanner.nextInt();
+
+                    if(usersDecision != 0) {
+                        plate.setSideType(sidesChoices[usersDecision - 1].getSideName(), sidesChoices[usersDecision - 1].getSidePrice());
+                    }
+
+                }
+
+                cart.addPlateToCart(plate);
+                cart.getTotalPrice(plate.getPlatePrice());
+
+            } else if(usersDecision == 2){
+
+                menu.presentPlateCombos();
+                System.out.println("--------Pick Your Combo-----------------------");
+                usersDecision = myScanner.nextInt();
+
+                if(usersDecision == 1){
+                    cart.addPlateToCart(classicPlateCombo);
+                    cart.getTotalPrice(classicPlateCombo.getPlatePrice());
+
+                } else if (usersDecision == 2){
+                    cart.addPlateToCart(theRibCombo);
+                    cart.getTotalPrice(theRibCombo.getPlatePrice());
+                }
+
+            } else {
+                userIsActive = false;
+            }
+
+        }
+    }
+
+    public void userPicksAccessory(){
+
+        AccessoriesChoice[] accessoriesChoices = AccessoriesChoice.values();
+        int userDecision = 1;
+
+        while(userDecision != 0){
+            menu.presentAccessories();
+            System.out.println("--------Pick Your Accessory or Enter 0 to End-----------------------");
+            userDecision = myScanner.nextInt();
+            if(userDecision > 0 && userDecision < accessoriesChoices.length){
+                cart.addAccessoryToCart(accessoriesChoices[userDecision-1]);
+                cart.getTotalPrice(accessoriesChoices[userDecision-1].getAccessoryPrice());
+            }
+        }
+
+    }
+
+    public void userViewsCart(){
+
+        Scanner myScanner = new Scanner(System.in);
+        int userDecision;
+        cart.getCart();
+        System.out.println("--------1.Checkout 2.Continue Ordering----------");
+        userDecision = myScanner.nextInt();
+        if(userDecision == 1){
+            receipt.setOrders(cart);
+            receipt.getReceipt();
+            cart = new Cart();
+        }
+    }
+
+    public void userViewsOrderHistory(){
+        int userDecision;
+
+        System.out.println("Enter Order Number");
+        userDecision = myScanner.nextInt();
+        if(userDecision > 0 && userDecision < receipt.orderAmount+1) {
+            receipt.reviewOrders(userDecision);
+        } else {
+            System.out.println("Order Not Found. Sent to Main Menu");
         }
 
     }
