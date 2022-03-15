@@ -36,7 +36,21 @@ public class Sandwich{
         return price;
     }
 
+    public void clearSandwich(){
+        this.breadType = "";
+        this.meatType = "";
+        this.toppingType.clear();
+        this.price = 0;
+    }
+
     public void getSandwich(){
-        System.out.println(breadType + " " + meatType + " " + toppingType + " $" + price);
+        System.out.println("-" + meatType + " $" + price);
+        System.out.println("\t" + breadType);
+        for (String s : toppingType) {
+            if (!s.equals(""))
+                System.out.println("\t" + s);
+        }
+
+        //System.out.println(breadType + " " + meatType + " " + toppingType + " $" + price);
     }
 }
