@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Plate {
 
-    private String meatType;
-    private final ArrayList<String> sideType = new ArrayList<>();
-    private double platePrice;
+    String meatType;
+    final ArrayList<String> sideType = new ArrayList<>();
+    double platePrice;
 
     public Plate(String meatType, String sideType, double platePrice){
         this.meatType = meatType;

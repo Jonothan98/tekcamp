@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class Sandwich{
 
-    private String breadType;
-    private String meatType;
-    private final ArrayList<String> toppingType = new ArrayList<>();
-    private double price;
+    String breadType;
+    String meatType;
+    final ArrayList<String> toppingType = new ArrayList<>();
+    double price;
 
 
     public Sandwich(String breadType, String meatType, String toppingType, double price) {
@@ -34,13 +34,6 @@ public class Sandwich{
 
     public double getPrice(){
         return price;
-    }
-
-    public void clearSandwich(){
-        this.breadType = "";
-        this.meatType = "";
-        this.toppingType.clear();
-        this.price = 0;
     }
 
     public void getSandwich(){
