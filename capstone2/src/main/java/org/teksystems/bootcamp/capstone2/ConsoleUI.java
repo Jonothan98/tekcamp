@@ -1,7 +1,9 @@
 package org.teksystems.bootcamp.capstone2;
 
-import org.teksystems.bootcamp.capstone2.Entrees.*;
-import org.teksystems.bootcamp.capstone2.MenuItems.*;
+import org.teksystems.bootcamp.capstone2.Logic.Cart;
+import org.teksystems.bootcamp.capstone2.Logic.Entrees.*;
+import org.teksystems.bootcamp.capstone2.Logic.MenuItems.*;
+import org.teksystems.bootcamp.capstone2.Logic.Receipt;
 
 import java.util.Scanner;
 
