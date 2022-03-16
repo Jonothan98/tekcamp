@@ -19,11 +19,19 @@ public class ConsoleUI {
         int userMenuDecision;
 
         while(userIsActive) {
-            System.out.println("Main Menu: 1.Make Order 2.View Cart 3.View Order History -Exit: Any other Key");
+            System.out.println("Main Menu------------------------- \n1.Make Order \n2.View Cart \n3.View Order History \n-Exit: Any other Number");
+            while(!myScanner.hasNextInt()){
+                System.out.println("Please Enter a Number!");
+                myScanner.next();
+            }
             userMenuDecision = myScanner.nextInt();
             switch (userMenuDecision) {
                 case 1:
-                    System.out.println("1.Sandwich 2.Plate 3.Accessory 0.Main Menu");
+                    System.out.println("Make Order---------------------------\n1.Sandwich \n2.Plate \n3.Accessory \n0.Main Menu");
+                    while(!myScanner.hasNextInt()){
+                        System.out.println("Please Enter a Number!");
+                        myScanner.next();
+                    }
                     int userDecision = myScanner.nextInt();
                     switch (userDecision) {
                         case 1:
@@ -66,8 +74,12 @@ public class ConsoleUI {
         boolean userPickedBread = false;
         int usersDecision;
 
-            System.out.println("1.Build a Sandwich 2.View Combos -Back: Any other Key");
-            usersDecision = myScanner.nextInt();
+        System.out.println("Sandwich---------------------------\n1.Build a Sandwich \n2.View Combos \n-Back: Any other number");
+        while(!myScanner.hasNextInt()){
+            System.out.println("Please Enter a Number!");
+             myScanner.next();
+        }
+        usersDecision = myScanner.nextInt();
 
             switch(usersDecision){
                 case 1:
@@ -75,6 +87,10 @@ public class ConsoleUI {
                     menu.presentMeat();
                     System.out.println("--------Pick Your meat------------------------");
                     while(!userPickedMeat){
+                        while(!myScanner.hasNextInt()){
+                            System.out.println("Please Enter a Number!");
+                            myScanner.next();
+                        }
                         usersDecision = myScanner.nextInt();
 
                         if(usersDecision > 0 && usersDecision <= meatChoices.length) {
@@ -89,6 +105,10 @@ public class ConsoleUI {
                     menu.presentBread();
                     System.out.println("--------Pick Your Bread-----------------------");
                     while(!userPickedBread){
+                        while(!myScanner.hasNextInt()){
+                            System.out.println("Please Enter a Number!");
+                            myScanner.next();
+                        }
                         usersDecision = myScanner.nextInt();
 
                         if(usersDecision > 0 && usersDecision <= breadChoices.length) {
@@ -103,6 +123,10 @@ public class ConsoleUI {
                     menu.presentToppings();
                     System.out.println("--------Pick Your Toppings or Press 0 to End--------------");
                     while(usersDecision != 0){
+                        while(!myScanner.hasNextInt()){
+                            System.out.println("Please Enter a Number!");
+                            myScanner.next();
+                        }
                         usersDecision = myScanner.nextInt();
 
                         if(usersDecision > 0 && usersDecision <= toppingsChoices.length) {
@@ -121,6 +145,10 @@ public class ConsoleUI {
                 case 2:
                     menu.presentSandwichCombos();
                     System.out.println("--------Pick Your Combo or any other key to continue-----------------------");
+                    while(!myScanner.hasNextInt()){
+                        System.out.println("Please Enter a Number!");
+                        myScanner.next();
+                    }
                     usersDecision = myScanner.nextInt();
 
                     switch(usersDecision){
@@ -128,6 +156,10 @@ public class ConsoleUI {
                             menu.presentAccessories();
 
                             System.out.println("--------Pick Your Accessory----------------");
+                            while(!myScanner.hasNextInt()){
+                                System.out.println("Please Enter a Number!");
+                                myScanner.next();
+                            }
                             usersDecision = myScanner.nextInt();
                             theRegularSandwich.setAccessory(accessoriesChoices[usersDecision - 1].getAccessoryName());
                             System.out.println("Added " + theRegularSandwich.getSandwichName());
@@ -142,6 +174,10 @@ public class ConsoleUI {
                             menu.presentAccessories();
 
                             System.out.println("--------Pick Your Accessory----------------");
+                            while(!myScanner.hasNextInt()){
+                                System.out.println("Please Enter a Number!");
+                                myScanner.next();
+                            }
                             usersDecision = myScanner.nextInt();
                             classicBBQSandwich.setAccessory(accessoriesChoices[usersDecision - 1].getAccessoryName());
                             System.out.println("Added " + classicBBQSandwich.getSandwichName());
@@ -170,8 +206,12 @@ public class ConsoleUI {
         boolean pickedMeat = false;
         int usersDecision;
 
-            System.out.println("1.Build a Plate 2.View Combos 0.Go Back");
-            usersDecision = myScanner.nextInt();
+        System.out.println("Plate---------------------------\n1.Build a Plate \n2.View Combos \n-Back: Any other number");
+        while(!myScanner.hasNextInt()){
+            System.out.println("Please Enter a Number!");
+            myScanner.next();
+        }
+        usersDecision = myScanner.nextInt();
 
             switch(usersDecision){
                 case 1:
@@ -180,6 +220,10 @@ public class ConsoleUI {
                     menu.presentMeat();
                     System.out.println("--------Pick Your meat------------------------");
                     while(!pickedMeat) {
+                        while(!myScanner.hasNextInt()){
+                            System.out.println("Please Enter a Number!");
+                            myScanner.next();
+                        }
                         usersDecision = myScanner.nextInt();
                         if(usersDecision > 0 && usersDecision <= meatChoices.length) {
                             plate.setMeatType(meatChoices[usersDecision - 1].getMeatName(), meatChoices[usersDecision - 1].getMeatPrice());
@@ -191,9 +235,13 @@ public class ConsoleUI {
                     }
 
                     menu.presentSides();
-                    System.out.println("--------Pick Your Sides or Press any other key to end--------------");
+                    System.out.println("--------Pick Your Sides or Press any other number to end--------------");
 
                     while(usersDecision != 0){
+                        while(!myScanner.hasNextInt()){
+                            System.out.println("Please Enter a Number!");
+                            myScanner.next();
+                        }
                         usersDecision = myScanner.nextInt();
 
                         if(usersDecision > 0 && usersDecision <= sidesChoices.length) {
@@ -211,7 +259,11 @@ public class ConsoleUI {
                     break;
                 case 2:
                     menu.presentPlateCombos();
-                    System.out.println("--------Pick Your Combo or Any other key to go back-----------------------");
+                    System.out.println("--------Pick Your Combo or Any other number to go back-----------------------");
+                    while(!myScanner.hasNextInt()){
+                        System.out.println("Please Enter a Number!");
+                        myScanner.next();
+                    }
                     usersDecision = myScanner.nextInt();
                     switch (usersDecision){
                         case 1:
@@ -243,6 +295,10 @@ public class ConsoleUI {
         while(userDecision != 0){
             menu.presentAccessories();
             System.out.println("--------Pick Your Accessory or Enter 0 to End-----------------------");
+            while(!myScanner.hasNextInt()){
+                System.out.println("Please Enter a Number!");
+                myScanner.next();
+            }
             userDecision = myScanner.nextInt();
             if(userDecision > 0 && userDecision <= accessoriesChoices.length){
                 cart.addAccessoryToCart(accessoriesChoices[userDecision-1]);
@@ -257,10 +313,13 @@ public class ConsoleUI {
 
     public void userViewsCart(){
 
-        Scanner myScanner = new Scanner(System.in);
         int userDecision;
         cart.getCart();
-        System.out.println("--------1.Checkout -Any Other Key to Continue Ordering----------");
+        System.out.println("--------1.Checkout 2.Remove Item From Cart -Any Other Number to Continue Ordering----------");
+        while(!myScanner.hasNextInt()){
+            System.out.println("Please Enter a Number!");
+            myScanner.next();
+        }
         userDecision = myScanner.nextInt();
         if(userDecision == 1 && cart.subTotal > 0){
             receipt.setOrders(cart);
@@ -268,6 +327,8 @@ public class ConsoleUI {
             cart = new Cart();
         } else if(userDecision ==1){
             System.out.println("Nothing to Checkout! Sent back to Main Menu");
+        } else if(userDecision == 2){
+            cart.removeItemFromCart();
         }
     }
 
@@ -275,6 +336,10 @@ public class ConsoleUI {
         int userDecision;
 
         System.out.println("Enter Order Number or 0 to got to Main Menu");
+        while(!myScanner.hasNextInt()){
+            System.out.println("Please Enter a Number!");
+            myScanner.next();
+        }
         userDecision = myScanner.nextInt();
         if(userDecision > 0 && userDecision < receipt.orderAmount+1) {
             receipt.reviewOrders(userDecision);

@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Cart {
 
@@ -31,14 +32,17 @@ public class Cart {
         this.accessoriesInCart.add(accessory);
     }
 
-    public double getTotalPrice(double price){
+    public void getTotalPrice(double price){
         double foodTax = 1.0825;
         this.subTotal += price;
         totalPrice = foodTax * subTotal;
-
-        return totalPrice;
     }
 
+    public void removeFromTotalPrice(double price){
+        double foodTax = 1.0825;
+        this.subTotal -= price;
+        totalPrice = foodTax * subTotal;
+    }
     public void getCart(){
 
         BigDecimal bigTotal = new BigDecimal(this.totalPrice);
@@ -65,11 +69,75 @@ public class Cart {
         System.out.println("-Total: " + total);
     }
 
-    public void clearCart(){
-        this.sandwichInCart.clear();
-        this.plateInCart.clear();
-        this.accessoriesInCart.clear();
-        this.subTotal = 0;
-        this.totalPrice = 0;
+    public void removeItemFromCart(){
+
+        Scanner myScanner = new Scanner(System.in);
+        int userDecision;
+
+        if(sandwichInCart.size() == 0 && plateInCart.size() == 0 && accessoriesInCart.size() == 0){
+            System.out.println("Nothing to Remove, sent back to Main Menu");
+        }
+
+        if(sandwichInCart.size() > 0){
+            for (int i = 0; i < sandwichInCart.size();i++) {
+                System.out.print((i+1)+". ");
+                sandwichInCart.get(i).getSandwich();
+            }
+            System.out.println("Input Sandwich number to remove item or Any other number to move on");
+            while(!myScanner.hasNextInt()){
+                System.out.println("Please Enter a Number!");
+                myScanner.next();
+            }
+            userDecision = myScanner.nextInt();
+
+            if(userDecision > 0 && userDecision <= sandwichInCart.size()){
+                removeFromTotalPrice(sandwichInCart.get(userDecision-1).getPrice());
+                sandwichInCart.remove(userDecision-1);
+                System.out.println("Item Removed");
+            }
+
+        }
+
+        if(plateInCart.size() > 0){
+            for (int i = 0; i < plateInCart.size();i++) {
+                System.out.print((i+1)+". ");
+                plateInCart.get(i).getPlate();
+            }
+
+            System.out.println("Input Plate number to remove item or Any other number to move on");
+            while(!myScanner.hasNextInt()){
+                System.out.println("Please Enter a Number!");
+                myScanner.next();
+            }
+            userDecision = myScanner.nextInt();
+
+            if(userDecision > 0 && userDecision <= plateInCart.size()){
+                removeFromTotalPrice(plateInCart.get(userDecision-1).getPlatePrice());
+                plateInCart.remove(userDecision-1);
+                System.out.println("Item Removed");
+            }
+        }
+
+        if(accessoriesInCart.size() > 0){
+            for(int i = 0; i < accessoriesInCart.size();i++){
+                System.out.print((i+1)+". ");
+                System.out.println("-" + accessoriesInCart.get(i).getAccessoryName() + "\t$" + accessoriesInCart.get(i).getAccessoryPrice());
+            }
+
+            System.out.println("Input Accessory number to remove item or Any other number to move on");
+            while(!myScanner.hasNextInt()){
+                System.out.println("Please Enter a Number!");
+                myScanner.next();
+            }
+            userDecision = myScanner.nextInt();
+
+            if(userDecision > 0 && userDecision <= accessoriesInCart.size()){
+                removeFromTotalPrice(accessoriesInCart.get(userDecision-1).getAccessoryPrice());
+                accessoriesInCart.remove(userDecision-1);
+                System.out.println("Item Removed");
+            }
+        }
+
+
     }
 }
