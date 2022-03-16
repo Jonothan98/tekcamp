@@ -10,6 +10,10 @@ public class TheRibCombo extends Plate{
         this.softDrink = "Soft Drink";
     }
 
+    public String plateComboName(){
+        return "The Rib Plate Combo";
+    }
+
     @Override
     public void getPlate() {
         System.out.println("The Rib Plate Combo");

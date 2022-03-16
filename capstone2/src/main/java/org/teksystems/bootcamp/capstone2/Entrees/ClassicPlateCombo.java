@@ -10,6 +10,10 @@ public class ClassicPlateCombo extends Plate{
         this.softDrink = "Soft Drink";
     }
 
+    public String plateComboName(){
+        return "Classic Plate Combo";
+    }
+
     @Override
     public void getPlate() {
         System.out.println("Classic Plate Combo");

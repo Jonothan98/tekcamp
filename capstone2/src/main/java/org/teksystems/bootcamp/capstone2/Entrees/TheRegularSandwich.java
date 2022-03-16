@@ -15,6 +15,10 @@ public class TheRegularSandwich extends Sandwich{
         this.accessory = accessory;
     }
 
+    public String getSandwichName(){
+        return "The Regular Sandwich Combo";
+    }
+
     @Override
     public void getSandwich() {
         System.out.println("The Regular Sandwich Combo");

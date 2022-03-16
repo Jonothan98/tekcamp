@@ -12,12 +12,13 @@ public class ClassicBBQSandwich extends Sandwich {
         this.accessory = accessory;
     }
 
-    public String getSoftDrink(){
-        return softDrink;
-    }
 
     public void setAccessory(String accessory){
         this.accessory = accessory;
+    }
+
+    public String getSandwichName(){
+        return "Classic BBQ Sandwich Combo";
     }
 
     @Override
