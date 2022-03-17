@@ -14,7 +14,7 @@ public class CreateMenu {
 
         System.out.println("------Meat----------------------------------");
         for (int i = 0; i < meatChoice.length; i++) {
-            System.out.println(i+1 +" "+ meatChoice[i].getMeatName() + "- $" + meatChoice[i].getMeatPrice());
+            System.out.println(i+1 +" "+ meatChoice[i].getMeatName() + "- $" + String.format("%.2f",meatChoice[i].getMeatPrice()));
         }
     }
 
@@ -24,7 +24,7 @@ public class CreateMenu {
 
         System.out.println("------Bread-Type----------------------------");
         for (int i = 0; i < breadChoices.length; i++) {
-            System.out.println(i+1 +" "+ breadChoices[i].getBreadName() + "- $" + breadChoices[i].getBreadPrice());
+            System.out.println(i+1 +" "+ breadChoices[i].getBreadName() + "- $" + String.format("%.2f",breadChoices[i].getBreadPrice()));
         }
 
     }
@@ -35,7 +35,7 @@ public class CreateMenu {
 
         System.out.println("------Accessories---------------------------");
         for (int i = 0; i < accessories.length; i++) {
-            System.out.println(i+1 +" "+ accessories[i].getAccessoryName() + "- $" + accessories[i].getAccessoryPrice());
+            System.out.println(i+1 +" "+ accessories[i].getAccessoryName() + "- $" + String.format("%.2f",accessories[i].getAccessoryPrice()));
         }
 
     }
@@ -46,7 +46,7 @@ public class CreateMenu {
 
         System.out.println("------Toppings---------------------------");
         for (int i = 0; i < toppingsChoices.length; i++) {
-            System.out.println(i+1 +" "+ toppingsChoices[i].getToppingName() + "- $" + toppingsChoices[i].getToppingPrice());
+            System.out.println(i+1 +" "+ toppingsChoices[i].getToppingName() + "- $" + String.format("%.2f",toppingsChoices[i].getToppingPrice()));
         }
 
     }
@@ -56,7 +56,7 @@ public class CreateMenu {
 
         System.out.println("------Sides-----------------------------");
         for (int i = 0; i < sides.length; i++) {
-            System.out.println(i+1 +" "+ sides[i].getSideName() + "- $" + sides[i].getSidePrice());
+            System.out.println(i+1 +" "+ sides[i].getSideName() + "- $" + String.format("%.2f",sides[i].getSidePrice()));
         }
     }
 
