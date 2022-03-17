@@ -1,6 +1,5 @@
 package org.teksystems.bootcamp.capstone2.Logic.MenuItems;
 
-import org.teksystems.bootcamp.capstone2.Logic.MenuItems.MeatChoice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,7 +20,7 @@ public class MeatChoiceTest {
 
         double actual = meatChoices[0].getMeatPrice();
 
-        Assert.assertEquals(actual, 5);
+        Assert.assertEquals(actual, 5.0);
 
     }
 

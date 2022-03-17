@@ -1,6 +1,5 @@
 package org.teksystems.bootcamp.capstone2.Logic.MenuItems;
 
-import org.teksystems.bootcamp.capstone2.Logic.MenuItems.SidesChoice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,7 +20,7 @@ public class SidesChoiceTest {
 
         double actual = sidesChoices[0].getSidePrice();
 
-        Assert.assertEquals(actual, 1);
+        Assert.assertEquals(actual, 1.0);
     }
 
     @Test

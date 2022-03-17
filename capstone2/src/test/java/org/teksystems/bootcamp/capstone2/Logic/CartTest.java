@@ -40,7 +40,7 @@ public class CartTest {
         Cart cart = new Cart();
         cart.getTotalPrice(1);
 
-        Assert.assertEquals(cart.subTotal, 1);
+        Assert.assertEquals(cart.subTotal, 1.0);
         Assert.assertEquals(cart.totalPrice, (1*1.0825));
     }
 
@@ -50,8 +50,8 @@ public class CartTest {
         cart.getTotalPrice(1);
         cart.removeFromTotalPrice(1);
 
-        Assert.assertEquals(cart.subTotal, 0);
-        Assert.assertEquals(cart.totalPrice, 0);
+        Assert.assertEquals(cart.subTotal, 0.0);
+        Assert.assertEquals(cart.totalPrice, 0.0);
     }
 
     @Test

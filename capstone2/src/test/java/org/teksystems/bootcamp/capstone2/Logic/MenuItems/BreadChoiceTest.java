@@ -1,6 +1,5 @@
 package org.teksystems.bootcamp.capstone2.Logic.MenuItems;
 
-import org.teksystems.bootcamp.capstone2.Logic.MenuItems.BreadChoice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,7 +20,7 @@ public class BreadChoiceTest {
 
         double actual = breadChoice[0].getBreadPrice();
 
-        Assert.assertEquals(actual, 1);
+        Assert.assertEquals(actual, 1.0);
     }
 
     @Test

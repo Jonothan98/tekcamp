@@ -1,6 +1,5 @@
 package org.teksystems.bootcamp.capstone2.Logic.Entrees;
 
-import org.teksystems.bootcamp.capstone2.Logic.Entrees.Sandwich;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +11,7 @@ public class SandwichTest {
         sandwich.setBreadType("Plain Bun", 1);
 
         Assert.assertEquals(sandwich.breadType, "Plain Bun");
-        Assert.assertEquals(sandwich.price, 1);
+        Assert.assertEquals(sandwich.price, 1.0);
     }
 
     @Test
@@ -21,7 +20,7 @@ public class SandwichTest {
         sandwich.setMeatType("Brisket", 3);
 
         Assert.assertEquals(sandwich.meatType, "Brisket");
-        Assert.assertEquals(sandwich.price, 3);
+        Assert.assertEquals(sandwich.price, 3.0);
     }
 
     @Test
@@ -30,7 +29,7 @@ public class SandwichTest {
         sandwich.setToppingType("Cheese", 1);
 
         Assert.assertEquals(sandwich.toppingType.get(1), "Cheese");
-        Assert.assertEquals(sandwich.price, 1);
+        Assert.assertEquals(sandwich.price, 1.0);
     }
 
     @Test
@@ -40,7 +39,7 @@ public class SandwichTest {
         sandwich.setMeatType("Brisket", 3);
         sandwich.setBreadType("Plain Bun", 1);
 
-        Assert.assertEquals(sandwich.getPrice(), 5);
+        Assert.assertEquals(sandwich.getPrice(), 5.0);
     }
 
     @Test
