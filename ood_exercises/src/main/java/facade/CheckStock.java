@@ -5,11 +5,7 @@ public class CheckStock {
     private String itemName;
     private int cost;
 
-    public boolean checkStock(){
-
-        UserInput userInput = new UserInput();
-
-        int userItem = userInput.userChoice();
+    public boolean checkStock(int userItem){
 
         switch (userItem){
             case 1:

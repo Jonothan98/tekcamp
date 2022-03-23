@@ -16,8 +16,6 @@ public class RandomSentence extends Template{
 
         int location = new Random().nextInt(5);
 
-
-
         return possibleLocations.get(location);
     }
 

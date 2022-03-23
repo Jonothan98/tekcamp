@@ -8,8 +8,9 @@ public class Facade {
         PaymentMade madePayment = new PaymentMade();
         ProductShipping shipping = new ProductShipping();
         CompletedPurchase completed = new CompletedPurchase();
+        UserInput userInput = new UserInput();
 
-        if(check.checkStock()){
+        if(check.checkStock(userInput.userChoice())){
             int cost = process.processingPayment(check.getCost());
             String address = madePayment.paymentMade(cost, check.getItemName());
             shipping.productShipping(address, check.getItemName());
