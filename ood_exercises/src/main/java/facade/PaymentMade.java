@@ -1,11 +1,17 @@
 package facade;
 
+import java.util.Scanner;
+
 public class PaymentMade {
 
-    public String paymentMade(int cost){
-        System.out.println("Order Summary: Toaster $" + cost);
+    public String paymentMade(int cost, String itemName){
+        Scanner myScanner = new Scanner(System.in);
+
+        System.out.println("Order Summary: "+ itemName + " $" + cost);
         System.out.println("Purchase has been processed");
-        return "1234 No Where St. Houston, TX";
+        System.out.println("-----------------------------\nPlease enter an address for the order to be delivered!");
+
+        return myScanner.nextLine();
     }
 
 }
