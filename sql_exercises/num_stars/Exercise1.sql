@@ -1,8 +1,10 @@
---  CREATE TABLE rating(
---  	rating_id INT PRIMARY KEY AUTO_INCREMENT,
---      number_of_stars INT UNIQUE,
---      stars_description VARCHAR(100)
---  );
+USE sakila;
+CREATE TABLE rating(
+	rating_id INT PRIMARY KEY AUTO_INCREMENT,
+ 	number_of_stars INT UNIQUE,
+ 	stars_description VARCHAR(100)
+);
+
 INSERT INTO rating(number_of_stars, stars_description)
 VALUES(1,'The movie was pretty bad'),
 (2,'The movie was pretty bad but not as bad'),
