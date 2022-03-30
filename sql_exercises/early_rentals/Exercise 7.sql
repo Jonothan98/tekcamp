@@ -1,5 +1,6 @@
 USE sakila;
-SELECT *,REPLACE(rental_date,rental_date,SUBSTRING(rental_date, 1, 10)) AS 'Rental Date Without Time' FROM rental
-	WHERE SUBSTRING(rental_date,12,13) < 10
-    LIMIT 10
+SELECT rental_id,rental_date, inventory_id, customer_id, return_date, staff_id, last_update, REPLACE(rental_date,rental_date,DATE(rental_date)) AS 'Rental Date Without Time' FROM rental
+ 	WHERE TIME(rental_date) < TIME(100000)
+    ORDER BY rental_id DESC
+ 	LIMIT 10
 ;
