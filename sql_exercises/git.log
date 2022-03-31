@@ -1,0 +1,674 @@
+commit 402592ce30d43ed013c35076fc4f644eb7844c52
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Mar 31 17:38:05 2022 -0500
+
+    compeleted exercise 9 and 10. have rough draft of exercise 11
+
+commit 227b6eedf067abc1e23326b203aabef791412603
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 30 17:50:42 2022 -0500
+
+    completed exercise 7 and 8
+
+commit 9d91b38e478b23f779824656f0a34c6c72a8f0d1
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 29 16:45:04 2022 -0500
+
+    Completed exercise 6 and began exercise 7
+
+commit 07922c37b21f7e8f2cf8e8b83d1a24453820d820
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 29 16:14:29 2022 -0500
+
+    Completed Exercise 4 and 5
+
+commit b95b731f3d12836d4ec886a715e306dddfa357ce
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 29 10:40:43 2022 -0500
+
+    Made corrections to the the SQL files. Added 'USE sakila'
+
+commit 6f4f6c5518188bce00b54087caa2b81a574b96eb
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Mar 28 18:17:05 2022 -0500
+
+    Completed exercise 3, and corrected exercise 2 file names
+
+commit a2bf6a0faf17c66897c5db60dec273eef0acfa7c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Mar 28 18:01:14 2022 -0500
+
+    Completed exercise 2 categories
+
+commit 1aeea991d8f5dce8f2dcb344fb179a5174544a51
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Mar 28 17:50:03 2022 -0500
+
+    Completed Exercise 1 Num Stars
+
+commit 62dac2134aef2d8d717eac5927fd10eca977e419
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Mar 27 14:43:00 2022 -0500
+
+    Added readme-challenges file and git log file
+
+commit 0efc45eb1c08676486898ccf110c9174ee9d8534
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 23 17:09:28 2022 -0500
+
+    finished testing for exercises 2 and 3
+
+commit dc6d927974dcb862a420e5ad98305d6b4f05a5ba
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 23 15:42:54 2022 -0500
+
+    Completed rough draft of exercise 3
+
+commit 839c8ef6f042ad293c9a788437ff144079b16558
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 23 15:31:05 2022 -0500
+
+    Refactored exercise 2 so that user inputs are its own class. Started exercise 3 by making main class and abstract class
+
+commit df277e2401508350b094dce9afc1d97c2487c485
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 22 18:23:53 2022 -0500
+
+    Completed Exercise 2
+
+commit 73cb3fa504a4bb5f049aef3cb45c757e62ca6837
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 22 16:50:15 2022 -0500
+
+    Rough Draft of Exercise 2 completed
+
+commit 2a8a6ea39dea50c9b1be92805d64ae4d18fc599c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 22 16:12:24 2022 -0500
+
+    Finished Exercise 1 and Exercise 1 test
+
+commit e20674f7959da879d5442e3bd87ab9ad93d23c57
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 22 14:54:46 2022 -0500
+
+    Created designpatterns branch, created ood java projects, and created Elf interface and classes
+
+commit 34535ff2d2eebf1bdaf751c2b14ef052af6d2fe6
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Mar 17 09:52:10 2022 -0500
+
+    Fixed test to account for numbers now having .0
+
+commit b36440fa34b224736db2145b4a070d036975fc04
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 16 19:51:19 2022 -0500
+
+    CreateMenu class now outputs prices to the second decimal
+
+commit 0e2bcbe2701e11ae56bfc5221c6c7c90e46f50a9
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 16 18:21:27 2022 -0500
+
+     Added git log file
+
+commit 75dffc0430d2c561dbbe8d7796a050cc23f486fd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 16 18:20:31 2022 -0500
+
+    Added design documents and read me challenges file
+
+commit 432336a51660db15e2007330549cefcbe299fd32
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 16 17:49:58 2022 -0500
+
+    Finished testing
+
+commit 9bf37c28b2b8ac571478fa4a6b47fc3e7b715f7d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 16 16:05:14 2022 -0500
+
+    Made test for all java classes in the Entrees folder
+
+commit 705e8f838c7b4631ccfd0be2ff10d3c0a563ac30
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 16 14:40:09 2022 -0500
+
+    In consoleUI class the user can now input a letter and not receive an error. User can now remove Items from cart
+
+commit 8a6b535b7471a84def5bb11f4d8baa320d049b4e
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 15 22:01:01 2022 -0500
+
+    refactored UI class by replacing a bunch of if else statments with switch statments. And made it where you can't checkout an empty cart
+
+commit 9d44588608105c63a1bae28da40acd81372cc82c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 15 17:42:07 2022 -0500
+
+    Rough draft completed of the user experience
+
+commit 64be231898872a181e54c5942ae4c0582bae4b9c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 15 15:39:13 2022 -0500
+
+    Completed Cart and Receipt class and functionality. Made it so the user can purchase sandwiches and review old receipts
+
+commit 2845bac57e546310d58bc1fe43fd9e49c377845b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Mar 14 16:52:52 2022 -0500
+
+    Made folders to organize java files. Made 4 combo classes. Made UI for custom making a sandwich
+
+commit 66892dd37e11a279e6fa47a2f69e94c767e4e026
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Mar 13 22:53:32 2022 -0500
+
+    Refactored the menu item classes to use enums rather then item pointer.
+
+commit e6fba297772f1679881b59421d127d09c838f313
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Mar 13 15:14:51 2022 -0500
+
+    Made classes for all menu sections Accessories, Plates, and Sandwiches
+
+commit 1756ce2594a6ea18f8d52b9bd40e047bdada158e
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Mar 11 17:20:28 2022 -0600
+
+    Made capstone2 branch, folder, and java project in intelliJ
+
+commit d78273af481ce4bd7ce5bb0538101afd2f665531
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 9 12:34:22 2022 -0600
+
+    added git log file
+
+commit 18c32e101aaf5571916e32ec9181f85dfa78ad00
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 9 12:29:35 2022 -0600
+
+    cleaned up the test by deleting System outs and makeing test names easier to read
+
+commit 229436416519d522997dfbb21346a01c0f151a4f
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 8 18:10:10 2022 -0600
+
+    Added ReadME challenges file
+
+commit 150c3b65b2448aed676003c219479bec83af230c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 8 16:11:47 2022 -0600
+
+    Finished testing for all exercises
+
+commit bdad300f5014f54f7391f6f0a99a7b7ac6741d68
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Mar 6 19:53:01 2022 -0600
+
+    Got exercise 5 working
+
+commit 9ed1c095ef22b94e645807ed70debaecfd16f79c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Mar 4 18:00:47 2022 -0600
+
+    Added testing for Exercise 4
+
+commit 66d3acc5d24b8d696aecb5ad538ad0fc363502d6
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Mar 4 16:46:01 2022 -0600
+
+    Did some refactoring to exercise 4
+
+commit 865bf790ff6b665704129b130bd168845406e640
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Mar 4 16:24:17 2022 -0600
+
+    Completed exercise 4
+
+commit 9ca010ac95faf7047035266ff7d392285ca6aa63
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Mar 4 14:56:21 2022 -0600
+
+    refactored some in exercise 1,2, &3. Made progress in Exercise 4
+
+commit 09e7609624f6055893df2961f152fc44e0a74fad
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Mar 3 15:00:27 2022 -0600
+
+    Switched test to testNG. Made a test for exercise 3
+
+commit ef1c27f3abe1c85a10769272e492d53001e69951
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 2 18:18:56 2022 -0600
+
+    Completed exercise 3 (factorByTwo)
+
+commit 145b4bf389e3245f4582c43bb3c011b93932d479
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Mar 2 17:28:39 2022 -0600
+
+    added test for NumberAggregator and CharFinder
+
+commit 90b7e8ec85ac69174ef240d98090bb0d76fb1eca
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 1 21:17:42 2022 -0600
+
+    created package and files for findCharacter exercise, and completed the exercise
+
+commit e86e0b6390138259929eb0d62541dcbbab1a47a8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 1 18:00:06 2022 -0600
+
+    cleaned up the tekcamp folder by deleteing unneeded (java_lab) folder
+
+commit ffe67121573987dd0f3a0c44ada59bd098fc1e76
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Mar 1 17:56:46 2022 -0600
+
+    added package for exercise 1 (additionalInputs) along with needed class. And completed the exercise
+
+commit d4dc75e461e9a3e50c15b9f0a395f32ff9b2cb00
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 28 16:29:25 2022 -0600
+
+    created java branch, java folder, and java project
+
+commit 0abeafb629823d87ddd442b78ca7aae395d398e8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 25 10:14:35 2022 -0600
+
+    Made a change to diagram and changed file type as it did not show on CodeGrade
+
+commit 0dcf8bfa52423d76c1b05d77cb74634782df2ded
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 24 17:30:14 2022 -0600
+
+    added git log and readme challenges
+
+commit c02d161ddfd50a65e81106ff02753f3039514513
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 24 17:23:06 2022 -0600
+
+    created UML branch and added Jpeg of UML assignment
+
+commit e27da8faa54095742191e2d618ed4cb8412d34fe
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 21 07:16:46 2022 -0600
+
+    added complete README-Challenges file
+
+commit 36eaa134edbd1ef3e431b7af0a7a8023da91b914
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 21 00:00:31 2022 -0600
+
+    corrected price html in productDetails Page
+
+commit 3d652fb5aff8b44a766f9cf298b1fbd97551f395
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 22:49:27 2022 -0600
+
+    merged capstone1 branch into develop branch
+
+commit ac680017ec9a34dc277be8908ea9f48a3a51d962
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 22:46:23 2022 -0600
+
+    added styles to call componets
+
+commit 15d35536704092b9d53501a951c7a8cfd9efed27
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 15:48:24 2022 -0600
+
+    add some html to staff page, and edited CSS for product page
+
+commit 9e45465ff2dbf5b6001b7abe3349b30beea2f0da
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 20 00:02:16 2022 -0600
+
+    can now logIn to a Staff page, navBar reflects login status
+
+commit 047bee81e31063355b554ff7ed17c0018097fa6c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sat Feb 19 20:38:31 2022 -0600
+
+    added search functinoality
+
+commit a16f163e9a10df0ac5a89ed9d42f5dd74e85bc9c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sat Feb 19 17:29:05 2022 -0600
+
+    Cart empties after purchase, and reduces quantity of items in stock
+
+commit 499f94874babbd1343dddb9b730b951689548506
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 18 18:53:35 2022 -0600
+
+    quantity functionality added to shopping cart page
+
+commit a10511607e3439dc74a20a2e2f3a87ffc9773ec3
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 18 18:15:58 2022 -0600
+
+    can now add item to cart from details page. Added some style to the cart page
+
+commit 8dc50db9f41cd3655f989383d86e7beb427637f5
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 18 11:30:23 2022 -0600
+
+    rough draft style for detail page and new navBar, started shoppingCart.JS
+
+commit 239bef7644f386e37ed61d446456c0ab76fb8902
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 17 23:24:04 2022 -0600
+
+    APP.js now gets JSON data and passes it through props, and ProductDetails.js now gets specific item data
+
+commit cd53b09881504a6dc46bd13d8e2535654c437d3b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 17 19:09:32 2022 -0600
+
+    rough styling for productPage. Started productDetails.js and the route to it
+
+commit 1b64811d210d85d62b24b724eee402d16ea8a4c4
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 16 17:47:34 2022 -0600
+
+    added more products to JSON file
+
+commit 5ba03e493391a604deb29578a7b2515cf3be0644
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 16 16:07:18 2022 -0600
+
+    created capstone branch, react project, JSON file, and rough draft productPage.js
+
+commit eaadbb3b675569184038b3053d1a97857340dbca
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 14 10:58:39 2022 -0600
+
+    commit git.log
+
+commit c6995e116ffa9e280fe7e7115c1efa1f888049d9
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 14 10:57:41 2022 -0600
+
+    commit final changes to README-Challenges
+
+commit 9b506b9ad6f38de3a975933691b58e45496b0bf8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 14 10:51:01 2022 -0600
+
+    fixed issue with profile.js not working upon refresh
+
+commit 10221199faf419cdd93c4f531a8cc6ff4934d774
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 13 23:27:41 2022 -0600
+
+    added README-Challenges file
+
+commit d20b0127e2e237d2969f7f684553e021f422b93b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 13 22:25:18 2022 -0600
+
+    Use routes to add functionality to navbar
+
+commit cb79008db092979fd0a128c403b818e32aaef81a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 13 19:09:42 2022 -0600
+
+    finished add comments and create comments
+
+commit e98df6ee8e574962ceafa4cfe2d52ea5088089c5
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sat Feb 12 20:57:20 2022 -0600
+
+    pictures are now being pulled from the dummy api
+
+commit afeec648ef83e290a060d048c88ed4220869c89a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 11 17:15:11 2022 -0600
+
+    completed rough draft of componet structure
+
+commit eca667ccb460c4e30bee8f172f02b0a1d68eef91
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 10 23:21:35 2022 -0600
+
+    adding basic comment, post, and nav componets with filler data
+
+commit 73f848ac61cdf181f5561515323fb2d8df2441ae
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 9 21:01:31 2022 -0600
+
+    created react branch and folder with starting js files
+
+commit 102ac61301675f05dc49271bc31e417c7b88e4cb
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 15:44:53 2022 -0600
+
+    commit git log for JavaScript lab
+
+commit 933dc71d5669daf7457a80bcd12c69e33f61efca
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 15:42:43 2022 -0600
+
+    Made correction to accordion arrow to flip 180 degrees instead of 90 degress
+
+commit 4a9e4ae2683c986e9ef53109f852f92df82db572
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 13:20:09 2022 -0600
+
+    completed readme-challenges for Accordion
+
+commit 375e621a815c49cd393818ee7897e9c089579772
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Feb 7 13:18:22 2022 -0600
+
+    Completed Readme-challenges file
+
+commit 5971df56b6eb212f5231500d41c7b1762aee944a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 6 14:15:57 2022 -0600
+
+    add comment to Accordion JavaScript file
+
+commit 92db9486689b033e8d2f57fe0a24f674aacda08b
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Feb 6 14:11:03 2022 -0600
+
+    added bold text toggle to Accordion JavaScript file
+
+commit 2882048de7ae8aa00acbb3f9f6dea5977d4286fc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 4 17:07:19 2022 -0600
+
+    commit rough draft of Accordion javaScript file
+
+commit 725fde30e4a617f7177a94c890f594dc3ca85d2a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Feb 4 14:40:54 2022 -0600
+
+    commit finishing touches to Form Validation javaScript file
+
+commit 8b6a579323061227543b5fab4678f8e99c532890
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 3 18:05:23 2022 -0600
+
+    add structure to JavaScript file
+
+commit 5d9e639c2c567203461c4e8b463df5723ba774de
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 3 17:32:58 2022 -0600
+
+    added a regex to help check email validation
+
+commit ec6c39b0765d010b975ab71980d8560a7c1e43bd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Feb 3 16:00:42 2022 -0600
+
+    Set up javaScript file for Accordion assignment
+
+commit 64414dc0dfc9f9b5f11ab60ffca86f463147a252
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Wed Feb 2 20:21:50 2022 -0600
+
+    Commit rough draft of FORM VALIDATION javascript
+
+commit c8e672b4a4944045f7684cc404b7b963925d7e60
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Feb 1 16:51:44 2022 -0600
+
+    made correction in script placement in HTML
+
+commit ff6028257a985a86694fe66f0f3c9d2c6f5e1017
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Feb 1 16:30:26 2022 -0600
+
+    Commit javaScriptLab branch and add provided resources for assignment
+
+commit c708b79c5cb3ca9083ca197d4fcd4e6d37c081de
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 21:19:04 2022 -0600
+
+    Made a correction to some padding on CSS
+
+commit ef89b03034548df4e23ce73d3d3c1f7fb138a4e2
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 21:10:09 2022 -0600
+
+    spelling corrections to html comment
+
+commit 80b62d41618414f6f2efcfce57d66e9025586363
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 20:59:25 2022 -0600
+
+    Added comments to html and added git log and readme challenges
+
+commit 7c954744f8e8fda34d1c5266cf11728ed50a75f8
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 13:19:05 2022 -0600
+
+    Clean up html and CSS code, and added comments to CSS
+
+commit 6b9fd7a7ad6e912a70316a933fab502373c06f5c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Sun Jan 30 12:47:18 2022 -0600
+
+    Edited buttons in html to making styling easier in CSS
+
+commit ace547bc94c6e8eee509473df02d028bb0276899
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Fri Jan 28 16:43:23 2022 -0600
+
+    added mediaQ and made small changes to index and style files
+
+commit db848ec7483e3795d89f1d42d14f0dbc7a08a4ff
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Thu Jan 27 23:06:16 2022 -0600
+
+    commit html structure done  and currently editing CSS
+
+commit ebb48afaf3c8532e64cf25c2fe975c998eecd602
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:21:28 2022 -0600
+
+    corrected index changes
+
+commit 84c1869bbc6f677c0840ed952932cf32ad10ea23
+Merge: 58646df c983d94
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:17:37 2022 -0600
+
+    corrected files git.log and index
+
+commit 58646df19395335c791afc395174c09369cb8176
+Merge: 3b7319e 47f6b83
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:15:17 2022 -0600
+
+    Merge branch 'undo-reset' into develop
+
+commit 3b7319e79f40dc23fffefc4c9ad9375461560a19
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:14:56 2022 -0600
+
+    corrected index file name
+
+commit 47f6b8320b95780cf392d89295a0f8e8d19df3b2
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:13:29 2022 -0600
+
+    deleted extra git.log
+
+commit e9e700ece037baf9c41aaf008e72cbf663175d78
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 14:07:41 2022 -0600
+
+    commit undo-reset with git log
+
+commit c983d94e7ab9c2bbd9a9bfb7d8f92a606e3bdf6d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 13:51:35 2022 -0600
+
+    edited index.html file name
+
+commit 3554848cf1e1a320557342991454b0dc1a97f5fc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Tue Jan 25 13:47:49 2022 -0600
+
+    added git log to git
+
+commit f5a336897a1fa04cce97fd1fc024c726efb13498
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:38:11 2022 -0600
+
+    commit changes to undo-reset
+
+commit 678afb0f26083af92382561674d47b2da3434b68
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:25:57 2022 -0600
+
+    commit h2-tag after adding
+
+commit e6cd991155b5c6f26e5d84dc66cf36968c269b49
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 17:24:51 2022 -0600
+
+    commit h2-tag
+
+commit 41870d5b6e186102a154b97a998cc2b6469be9cd
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:09:44 2022 -0600
+
+    index.html change
+
+commit f22455b9e0ad18dff66a5d1a17ced5138605361b
+Merge: 9a0b65a f0ca70c
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 15:04:08 2022 -0600
+
+    merge conflict
+
+commit f0ca70c04a12a8f1a43f6012898699776d65140a
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:51:17 2022 -0600
+
+    commit updated-title
+
+commit 9a0b65a99c6a7f5ad2a78d2c81cab169304da90d
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:49:10 2022 -0600
+
+    commit new-body
+
+commit 3c199ca90b8c2b6d40c48fe3477f6798cdcc8adc
+Author: Jonothan <jonothan.x.castillo@gmail.com>
+Date:   Mon Jan 24 14:07:50 2022 -0600
+
+    commit new-html
+
+commit 886992c15c7a487e180ac6354f7902491c56787a
+Author: Jonothan98 <55722400+Jonothan98@users.noreply.github.com>
+Date:   Mon Jan 24 12:39:16 2022 -0600
+
+    Initial commit
