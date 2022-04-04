@@ -1,3 +1,8 @@
+package com.teksystems.bootcamp.springboot.movierental;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 @Entity
 public class User {
     @Id
@@ -8,10 +13,4 @@ public class User {
 
     // getters and setters
 
-    @NotNull(message = "First Name cannot be null")
-    private String firstName;
-
-    @Min(value = 15, message = "Age should not be less than 15")
-    @Max(value = 65, message = "Age should not be greater than 65")
-    private int age;
 }
