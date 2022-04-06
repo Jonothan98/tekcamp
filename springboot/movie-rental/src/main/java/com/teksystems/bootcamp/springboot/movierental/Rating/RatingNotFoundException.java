@@ -1,12 +1,11 @@
-package com.teksystems.bootcamp.springboot.movierental.film;
+package com.teksystems.bootcamp.springboot.movierental.Rating;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class FilmNotFoundException extends RuntimeException{
-
-    public FilmNotFoundException(String message) {
+public class RatingNotFoundException extends RuntimeException{
+    public RatingNotFoundException(String message) {
         super(message);
     }
 }
