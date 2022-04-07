@@ -5,46 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67387156-1d89-4011-8fe1-40859736a918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewServicer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Exception/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Exception/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/SpringFoxConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/customer/CustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/customer/CustomerNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/customer/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/film/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/film/FilmController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/film/FilmNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/film/FilmRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +53,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>

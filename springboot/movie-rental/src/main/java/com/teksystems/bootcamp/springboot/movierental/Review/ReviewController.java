@@ -1,55 +1,57 @@
 package com.teksystems.bootcamp.springboot.movierental.Review;
 
+import com.teksystems.bootcamp.springboot.movierental.Customer;
+import com.teksystems.bootcamp.springboot.movierental.Film;
+import com.teksystems.bootcamp.springboot.movierental.Rating.Rating;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
-import javax.validation.Valid;
-import java.net.URI;
-import java.util.Optional;
 
 @RestController
+@RequestMapping("/api/reviews")
 public class ReviewController {
 
+    private final ReviewServicer reviewServicer;
+
     @Autowired
-    private ReviewRepository reviewRepository;
+    ReviewRepository reviewRepository;
 
-    @GetMapping("/api/review")
-    public Page<Review> getAllReviews(){
-        return reviewRepository.findAll(Pageable.ofSize(25));
+    public ReviewController(ReviewServicer reviewServicer) {
+        this.reviewServicer = reviewServicer;
     }
 
-    @GetMapping("/api/review/{id}")
-    public Optional<Review> getReviewById(@PathVariable Long id){
-        return reviewRepository.findById(id);
+    @GetMapping
+    public Page<Review> index(){
+        return reviewServicer.getAllReviews();
     }
 
-    @PostMapping("/api/review")
-    public ResponseEntity<Object> createReview(@Valid@RequestBody Review review){
-        Review savedReview = reviewRepository.save(review);
+//    @PostMapping("/createReview")
+//    public Review createReview(@RequestParam(value = "film_id") short film, @RequestParam(value = "customer_id") short customer, @RequestParam(value = "rating_id") short rating){
+//        Review review = new Review(rating,film,customer);
+//        return reviewServicer.createReview(review);
+//    }
 
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedReview.getId()).toUri();
-
-        return ResponseEntity.created(location).build();
+    @PostMapping("/createReview")
+    public Review createReview(@RequestBody Review review){
+//        Review review = new Review(rating,film,customer);
+        return reviewServicer.createReview(review);
     }
 
-    @PutMapping("/api/review/{id}")
-    public ResponseEntity<Object> updateReview(@Valid @RequestBody Review review, @PathVariable Long id){
-        Optional<Review> reviewOptional = reviewRepository.findById(id);
 
-        if(!reviewOptional.isPresent())
-            return ResponseEntity.notFound().build();
-
-        review.setId(id);
-        reviewRepository.save(review);
-        return ResponseEntity.noContent().build();
+    @GetMapping("/{id}")
+    public Review getReviewById(@PathVariable("id") Long id){
+        return reviewServicer.getReviewById(id);
     }
 
-    @DeleteMapping("api/review/{id}")
-    public void deleteReview(@PathVariable long id){
-        reviewRepository.deleteById(id);
+    @PutMapping("/updateReview")
+    public Review updateReview(@PathVariable("id") Long id, @RequestBody Film film, Customer customer, Rating rating){
+        Review review = reviewServicer.updateReview(id,rating,film,customer);
+        return review;
     }
+
+    @RequestMapping(value="/delete/{id}", method = RequestMethod.DELETE)
+    public void deleteReview(@PathVariable("id") Long id){
+        reviewServicer.deleteReview(id);
+    }
+
 }

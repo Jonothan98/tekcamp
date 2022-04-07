@@ -3,38 +3,45 @@ package com.teksystems.bootcamp.springboot.movierental.Review;
 import com.teksystems.bootcamp.springboot.movierental.Customer;
 import com.teksystems.bootcamp.springboot.movierental.Film;
 import com.teksystems.bootcamp.springboot.movierental.Rating.Rating;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Review")
-@NoArgsConstructor
-@AllArgsConstructor
+@Table(name = "review", schema = "sakila")
 public class Review {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter @Setter
-    private Long id;
+    @Column(name = "review_id")
+    private Long review_id;
 
-    @Setter
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "rating_id")
-    private Rating rating;
+    private Rating rating = new Rating();
 
-    @Setter
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "film_id")
-    private Film film;
+    private Film film = new Film();
 
-    @Setter
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     @JoinColumn(name = "customer_id")
-    private Customer customer;
+    private Customer customer = new Customer();
+
+    public Review(){
+
+    }
+
+    public Review(short rating, short film, short customer) {
+        this.rating.setRating_id(rating);
+        this.film.setFilm_id(film);
+        this.customer.setCustomer_id(customer);
+    }
+
+    public Review(Rating rating, Film film, Customer customer) {
+        this.rating = rating;
+        this.film = film;
+        this.customer = customer;
+    }
 
     public short getRating() {
         return rating.getRating_id();
@@ -49,6 +56,23 @@ public class Review {
     }
 
     public Long getId() {
-        return id;
+        return review_id;
     }
+
+    public void setId(Long id) {
+        this.review_id = id;
+    }
+
+    public void setRating(Rating rating) {
+        this.rating = rating;
+    }
+
+    public void setFilm(Film film) {
+        this.film = film;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
 }

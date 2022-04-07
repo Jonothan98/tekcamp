@@ -5,10 +5,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.validation.Valid;
-import java.net.URI;
 import java.util.Optional;
 
 @RestController
@@ -28,12 +26,9 @@ public class RatingController {
     }
 
     @PostMapping("/api/ratings")
-    public ResponseEntity<Object> createRatings(@Valid @RequestBody Rating rating){
-        Rating savedRating = ratingRepository.save(rating);
+    public Rating createRatings(@Valid @RequestBody Rating rating){
 
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedRating.getRating_id()).toUri();
-
-        return ResponseEntity.created(location).build();
+        return ratingRepository.save(rating);
     }
 
     @PutMapping("/api/ratings/{id}")
