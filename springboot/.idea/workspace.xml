@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67387156-1d89-4011-8fe1-40859736a918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewServicer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Exception/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Exception/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Rating/RatingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/Review/ReviewRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/java/com/teksystems/bootcamp/springboot/movierental/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-rental/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-rental/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="67387156-1d89-4011-8fe1-40859736a918" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
